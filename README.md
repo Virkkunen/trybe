@@ -16,4 +16,11 @@ São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento 
 #### Bloco 02: Git, Github e Internet ⏳
 - [ ] 01: Git & Github - O que é e para que serve
 - [ ] 02: Git & Github - Entendendo os comandos
-- [ ] Internet - Entendendo como ela funciona
+- [ ] 03: Internet - Entendendo como ela funciona
+
+#### Bloco 03: Introdução à HTML e CSS
+#### Bloco 04: Introdução à JavaScript e Lógica de Programação
+#### Bloco 05: JavaScript: DOM, Eventos e Web Storage
+#### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
+#### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
+#### Bloco 08: Higher Order Functions do JavaScript ES6
