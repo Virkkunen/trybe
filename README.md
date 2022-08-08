@@ -71,7 +71,67 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [ ] **06: Projeto - Zoo Functions**
 
 ## Frontend
+#### Bloco 09: JavaScript e Testes Assíncronos
+#### Bloco 10: Introdução à React
+#### Bloco 11: Componentes com Estado, Eventos e Formulários React
+#### Bloco 12: Ciclo de Vida de Componentes e React Router
+#### Bloco 13: Metodologias Ágeis
+#### Bloco 14: Testes automatizados com React Testing Library
+#### Bloco 15: Gerenciamento de estado com Redux
+#### Bloco 16: Projeto Jogo de Trivia
+#### Bloco 17: Context API e React Hooks
+#### Bloco 18: Projeto App de Receitas
 
 ## Backend
+#### Bloco 19: Docker: Utilizando Containers
+#### Bloco 20: Introdução à SQL
+#### Bloco 21: Funções SQL, JOINs e Normalização
+#### Bloco 22: Introdução ao desenvolvimento Web com Node.js
+#### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
+#### Bloco 24: Node.js: ORM e Autenticação
+#### Bloco 25: Deployment
+#### Bloco 26: TypeScript
+#### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
+#### Bloco 28: Projeto - TFC - Trybe Futebol Clube
+#### Bloco 29: Introdução ao MongoDB
+#### Bloco 30: MongoDB com Node.js e POO
+#### Bloco 31: Projeto - App de Delivery
+#### Bloco 32: MasterClass - VPS, CI/CD
 
 ## Ciência da Computação
+
+#### Bloco 33: Introdução à Python
+- [ ] 01: Introdução - Ciência da Computação
+- [ ] 01: Aprendendo Python
+- [ ] 02: Entrada e saída de dados
+- [ ] 03: Testes
+- [ ] **04: Projeto - Job Insights**
+
+#### Bloco 34: Padrões de Projeto
+- [ ] 01: P.O.O. em Python
+- [ ] 02: Padrões - Iterator, Adapter, Strategy
+- [ ] 03: Padrões - Decorator, Observer, Factory
+- [ ] **04: Projeto - Relatórios de Estoque**
+
+#### Bloco 35: Redes e Raspagem de Dados
+- [ ] 01: Arquitetura de redes, ferramentas e seguraça
+- [ ] 02: Raspagem de dados
+- [ ] **03: Projeto - Tech news**
+
+#### Bloco 36: Algoritmos
+- [ ] 01: Complexidade de Algoritmos
+- [ ] 02: Recursividade e Estratégias para solução de problemas
+- [ ] 03: Algoritmos de ordenação e busca
+- [ ] **04: Projeto - Algoritmos**
+
+#### Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
+- [ ] 01: Arquitetura de Computadores
+- [ ] 02: Arrays
+- [ ] 03: Nó e Listas Encadeadas
+- [ ] 04: Pilhas e Filas
+- [ ] **05: Projeto - TING - Trybe Is Not Google**
+
+#### Bloco 38: Estrutura de Dados II: Hashmaps e Sets
+- [ ] 01: Hashmap e Dict
+- [ ] 02: Set
+- [ ] **03: Projeto - Restaurant Orders**
