@@ -14,7 +14,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 04: Unix & Bash - Parte 2
 
 #### Bloco 02: Git, Github e Internet ⏳
-- [ ] 01: Git & Github - O que é e para que serve
+- [x] 01: Git & Github - O que é e para que serve
 - [ ] 02: Git & Github - Entendendo os comandos
 - [ ] 03: Internet - Entendendo como ela funciona
 
