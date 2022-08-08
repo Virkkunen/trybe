@@ -1,6 +1,6 @@
 # Exercícios 
 
-## Organização
+## [Organização](https://app.betrybe.com/course/real-life-engineer/exercise-portfolio/#como-organizar)
 - trybe
   - exercícios
     - fundamentos
