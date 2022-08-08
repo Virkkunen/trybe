@@ -5,7 +5,7 @@ _"Trybe é uma escola de tecnologia que tem comprometimento genuíno com o suces
 
 _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento web, desenvolvimento, Front-end, Back-end, ciência da computação, metodologias ágeis e habilidades comportamentais."_
 
-# Fundamentos do Desenvolvimento Web
+# Fundamentos do Desenvolvimento Web ⏳
 
 #### Bloco 01: Unix & Bash ✅
 - [x] 01: Fundamentos do Desenvolvimento Web
