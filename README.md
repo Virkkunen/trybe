@@ -72,6 +72,12 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 
 ## Frontend
 #### Bloco 09: JavaScript e Testes Assíncronos
+- [ ] 01: Introdução - Frontend
+- [ ] 01: JavaScript Assíncrono e Callbacks
+- [ ] 02: JavaScript Assíncrono - Fetch API e async/await
+- [ ] 03: Jest - Testes Assíncronos
+- [ ] **04: Projeto - Carrinho de Compras**
+
 #### Bloco 10: Introdução à React
 #### Bloco 11: Componentes com Estado, Eventos e Formulários React
 #### Bloco 12: Ciclo de Vida de Componentes e React Router
