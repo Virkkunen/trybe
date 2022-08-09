@@ -79,11 +79,39 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [ ] **04: Projeto - Carrinho de Compras**
 
 #### Bloco 10: Introdução à React
+- [ ] 01: Introdução - React
+- [ ] 01: "Hello World!" no React
+- [ ] 02: Componentes React
+- [ ] **03: Projeto - Sistema Solar**
+
 #### Bloco 11: Componentes com Estado, Eventos e Formulários React
+- [ ] 01: Componentes com estados e eventos
+- [ ] 02: Formulários no React
+- [ ] **03: Projeto - Tryunfo**
+
 #### Bloco 12: Ciclo de Vida de Componentes e React Router
+- [ ] 01: Ciclo de vida de componentes
+- [ ] 02: React Router
+- [ ] **03: Projeto - Trybe Tunes**
+
 #### Bloco 13: Metodologias Ágeis
+- [ ] 01: Metodologias Ágeis
+- [ ] **02: Projeto - Frontend Online Store**
+
 #### Bloco 14: Testes automatizados com React Testing Library
+- [ ] 01: RTL - Primeiros passos
+- [ ] 02: RTL - Mocks e Inputs
+- [ ] 03: RTL - Testando React Router
+- [ ] **04: Projeto - Testes em React**
+
 #### Bloco 15: Gerenciamento de estado com Redux
+- [ ] 01: Introdução ao Redux - O estado global da aplicação
+- [ ] 02: Usando o Redux no React
+- [ ] 03: Usando o Redux no React - Prática
+- [ ] 04: Usando o redux no React - Actions Assíncronas
+- [ ] 05: Testes em React-Redux
+- [ ] **06: Projeto - Trybe Wallet**
+
 #### Bloco 16: Projeto Jogo de Trivia
 #### Bloco 17: Context API e React Hooks
 #### Bloco 18: Projeto App de Receitas
