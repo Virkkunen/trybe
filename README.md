@@ -14,12 +14,12 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 03: Unix & Bash - Parte 1
 - [x] 04: Unix & Bash - Parte 2
 
-#### Bloco 02: Git, Github e Internet ⏳
+#### Bloco 02: Git, Github e Internet ✅
 - [x] 01: Git & Github - O que é e para que serve
 - [x] 02: Git & Github - Entendendo os comandos
-- [ ] 03: Internet - Entendendo como ela funciona
+- [x] 03: Internet - Entendendo como ela funciona
 
-#### Bloco 03: Introdução à HTML e CSS
+#### Bloco 03: Introdução à HTML e CSS ⏳
 - [ ] 01: Introdução - HTML & CSS
 - [ ] 01: HTML & CSS - Estruturas de página
 - [ ] 02: HTML & CSS - Primeiros passos em CSS
