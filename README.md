@@ -20,8 +20,8 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 03: Internet - Entendendo como ela funciona
 
 #### Bloco 03: Introdução à HTML e CSS ⏳
-- [ ] 01: Introdução - HTML & CSS
-- [ ] 01: HTML & CSS - Estruturas de página
+- [x] 01: Introdução - HTML & CSS
+- [x] 01: HTML & CSS - Estruturas de página
 - [ ] 02: HTML & CSS - Primeiros passos em CSS
 - [ ] 03: HTML & CSS - Seletores e posicionamento
 - [ ] 04: HTML Semântico
