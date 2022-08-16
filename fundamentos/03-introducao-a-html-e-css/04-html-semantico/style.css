@@ -64,6 +64,15 @@ nav a:active {
   margin: 32px;
 }
 
+article {
+  padding: 16px;
+  width: 33%;
+}
+
+article h2 {
+  margin-bottom: 16px;
+}
+
 aside {
   float: right;
   margin: 16px;
