@@ -1,0 +1,91 @@
+/* css reset */
+* { 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+/* colors */
+
+:root {
+  --bg0: #282828;
+  --bg1: #3c3836;
+  --bg2: #504945;
+  --bg3: #665c54;
+
+  --fg0: #fbf1c7;
+  --fg1: #ebdbb2;
+  --fg2: #d5c4a1;
+  --fg3: #bdae93;
+}
+
+/* */
+
+body {
+  background-color: var(--bg0);
+  color: var(--fg0);
+}
+
+header {
+  background-color: var(--bg1);
+  font-size: 24px;
+  font-weight: 700;
+  padding: 48px;
+}
+
+nav {
+  background-color: var(--bg2);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+nav a {
+  padding: 16px;
+  color: var(--fg2);
+}
+
+nav a:hover {
+  background-color: var(--bg3);
+  color: var(--fg1);
+}
+
+nav a:active {
+  background-color: var(--bg1);
+  color: var(--fg3);
+}
+
+.articles {
+  margin: 32px;
+}
+
+aside {
+  float: right;
+  margin: 16px;
+  background-color: var(--bg3);
+}
+
+aside ol {
+  list-style: upper-roman;
+  padding: 16px 32px;
+}
+
+aside li {
+  margin: 8px 0;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  background-color: var(--bg2);
+  color: var(--fg2);
+  text-align: center;
+  padding: 16px;
+}
