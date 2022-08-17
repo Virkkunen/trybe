@@ -1,0 +1,143 @@
+/* stylelint-disable color-no-hex */
+
+/* css reset */
+* {
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* colours: https://github.com/morhetz/gruvbox */
+:root {
+
+  --bg0: rgb(40, 40, 40);
+
+  --bg1: rgb(60, 56, 54);
+
+  --bg2: rgb(80, 73, 69);
+
+  --fg0: rgb(251, 241, 199);
+
+  --fg1: rgb(235, 219, 178);
+
+  --fg2: rgb(213, 196, 161);
+
+  --red: rgb(251, 73, 52);
+
+  --green: rgb(184, 187, 38);
+
+  --blue: rgb(131, 165, 152);
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Fira Sans, sans-serif;
+}
+
+h1 , h2 , h3 {
+  font-weight: 800;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 128px;
+  background-color: var(--bg0);
+  color: var(--fg0);
+  font-size: 32px;
+  align-items: center;
+  padding: 32px;
+}
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--bg0);
+  color: var(--fg0);
+  padding: 22px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+nav {
+  width: 100%;
+  padding: 116px 16px 16px;
+  background-color: var(--bg1);
+  margin-bottom: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--blue);
+  padding: 16px;
+}
+
+nav a:hover {
+  background-color: var(--bg2);
+  color: var(--green);
+}
+
+nav a:active {
+  background-color: var(--bg0);
+  color: var(--fg2);
+}
+
+#minha_foto {
+  max-width: 128px;
+}
+
+.lists {
+  display: inline-block;
+}
+
+ol , ul {
+  margin: 16px;
+  line-height: 20px;
+}
+
+#licoes_aprendidas {
+  list-style: decimal-leading-zero;
+  float: left;
+}
+
+#licoes_a_aprender {
+  float: right;
+}
+
+aside {
+  background-color: var(--bg2);
+  color: var(--fg1);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.articles {
+  width: 100%;
+  margin-bottom: 160px;
+}
+
+article {
+  background-color: var(--bg1);
+  color: var(--fg0);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+}
+
+.lado-direito {
+  float: right;
+  width: 25%;
+}
+
+.tabela {
+  padding: 16px;
+  float: right;
+}
