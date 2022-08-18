@@ -1,60 +1,79 @@
-// 
-// Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b, definidas no começo com os valores que serão operados. Faça programas para:
-//
-// Adição (a + b)
-// Subtração (a - b)
-// Multiplicação (a * b)
-// Divisão (a / b)
-// Módulo (a % b)
-//
 const a = 5;
 const b = 4;
+const c = -9;
 let resultado;
-let opcao;
 
 function adicao (a, b) {
   resultado = a + b;
-  console.log(resultado);
+  console.log("Adição:", resultado);
 }
 
-function subracao (a, b) {
+function subtracao (a, b) {
   resultado = a - b;
-  console.log(resultado);
+  console.log("Subtração:", resultado);
 }
 
 function multiplicacao (a, b) {
   resultado = a * b;
-  console.log(resultado);
+  console.log("Multiplicacão:", resultado);
 }
 
 function divisao (a, b) {
   resultado = a / b;
-  console.log(resultado);
+  console.log('Divisão:', resultado);
 }
 
 function modulo (a, b) {
   resultado = a % b;
-  console.log(resultado);
+  console.log('Módulo:', resultado);
+}
+
+function maior (a, b) {
+  if (a > b) {
+    return a;
+  } else if (a < b) {
+    return b;
+  } else {
+    return null;
+  }
+}
+
+function maiorDeTres (a, b, c) {
+  if (a > b && a > c) {
+    return a;
+  } else if (b > a && b > c) {
+    return b;
+  } else if (c > a && c > b) {
+    return c;
+  } else return null;
 }
 
 // Switch
-
-switch(1) {
-  case 1:
-    adicao(a, b);
-    break;
-  case 2:
-    subtracao(a, b);
-    break;
-  case 3:
-    multiplicacao(a, b);
-    break;
-  case 4:
-    divisao(a, b);
-    break;
-  case 5:
-    modulo(a, b);
-    break;
-  default:
-    console.log("Nenhuma opção escolhida.");
+console.log(`${a}, ${b} e ${c}\n`);
+for (let i = 0; i < 7; i++) {
+  switch(i) {
+    case 0:
+      adicao(a, b);
+      break;
+    case 1:
+      subtracao(a, b);
+      break;
+    case 2:
+      multiplicacao(a, b);
+      break;
+    case 3:
+      divisao(a, b);
+      break;
+    case 4:
+      modulo(a, b);
+      break;
+    case 5:
+      console.log("Maior:", maior(a, b));
+      break;
+    case 6:
+      console.log("Maior dos 3:", maiorDeTres(a, b, c));
+      break;
+    default:
+      console.log("Nenhuma opção escolhida.");
+  }
 }
