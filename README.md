@@ -28,8 +28,8 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [**05: Projeto - Lessons Learned**](fundamentos/projetos/lessons-learned/)
 
 #### Bloco 04: Introdução à JavaScript e Lógica de Programação ⏳
-- [ ] 01: Introdução - JavaScript
-- [ ] 01: JavaScript - Primeiros passos
+- [x] 01: Introdução - JavaScript
+- [x] [01: JavaScript - Primeiros passos](fundamentos/04-introducao-a-javascript-e-logica-de-programacao/01-javascript-primeiros-passos)
 - [ ] 02: JavaScript - Array e loop for
 - [ ] 03: JavaScript - Lógica de programação e algoritmos
 - [ ] 04: JavaScript - Objetos e funções
