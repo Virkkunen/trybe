@@ -20,9 +20,9 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 03: Internet - Entendendo como ela funciona
 
 #### Bloco 03: Introdução à HTML e CSS ✅
-- [x] [01: Introdução - HTML & CSS](https://github.com/Virkkunen/virkkunen.github.io/tree/trybe-portfolio)
-- [x] [01: HTML & CSS - Estruturas de página](https://github.com/Virkkunen/virkkunen.github.io/tree/trybe-portfolio)
-- [x] [02: HTML & CSS - Primeiros passos em CSS](https://github.com/Virkkunen/virkkunen.github.io/tree/trybe-portfolio)
+- [x] [01: Introdução - HTML & CSS](https://github.com/Virkkunen/virkkunen.github.io/tree/master)
+- [x] [01: HTML & CSS - Estruturas de página](https://github.com/Virkkunen/virkkunen.github.io/tree/master)
+- [x] [02: HTML & CSS - Primeiros passos em CSS](https://github.com/Virkkunen/virkkunen.github.io/tree/master)
 - [x] [03: HTML & CSS - Seletores e posicionamento](fundamentos/03-introducao-a-html-e-css/03-html-e-css-seletores-e-posicionamento/)
 - [x] [04: HTML Semântico](fundamentos/03-introducao-a-html-e-css/04-html-semantico)
 - [x] [**05: Projeto - Lessons Learned**](fundamentos/projetos/lessons-learned/)
