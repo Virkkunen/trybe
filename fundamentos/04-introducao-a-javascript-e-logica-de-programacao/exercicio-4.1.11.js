@@ -47,7 +47,6 @@ function calculaIR () {
 }
 
 function resultado () {
-  
   const resultado = (calculaSalarioBase() - calculaIR());
   return (Math.round(resultado * 100) / 100).toFixed(2);
 }
