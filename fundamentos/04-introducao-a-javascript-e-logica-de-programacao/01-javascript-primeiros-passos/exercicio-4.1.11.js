@@ -1,5 +1,5 @@
 // Cálculo salário líquido/base
-const salario = 30000.00;
+const salario = 5189.82;
 
 // definir inss
 // INSS (Instituto Nacional do Seguro Social)
@@ -10,11 +10,11 @@ const salario = 30000.00;
 function calculaINSS (salario) {
   if (salario <= 1556.94) {
      return (salario * 0.08);
-  } else if (salario >= 1556.95 && salario <= 2594.92) {
+  } else if (salario <= 2594.92) {
     return (salario * 0.09);
-  } else if (salario >= 2594.93 && salario <= 5189.82) {
+  } else if (salario <= 5189.82) {
     return (salario * 0.11);
-  } else if (salario >= 5189.82) {
+  } else if (salario > 5189.82) {
     return 570.88;
   }
 }
@@ -35,11 +35,11 @@ function calculaIR () {
 
   if (salarioBase <= 1903.98) {
     return 0;
-  } else if (salarioBase >= 1903.99 && salarioBase <= 2826.65) {
+  } else if (salarioBase <= 2826.65) {
     return ((salarioBase * 0.075) - 142.80);
-  } else if (salarioBase >= 2826.66 && salarioBase <= 3751.05) {
+  } else if (salarioBase <= 3751.05) {
     return ((salarioBase * 0.15) - 354.80);
-  } else if (salarioBase >= 3751.06 && salarioBase <= 4664.68) {
+  } else if (salarioBase <= 4664.68) {
     return ((salarioBase * 0.225) - 636.13);
   } else if (salarioBase >= 4664.69) {
     return ((salarioBase * 0.275) - 869.36);
