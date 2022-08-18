@@ -10,6 +10,7 @@
 const a = 5;
 const b = 4;
 let resultado;
+let opcao;
 
 function adicao (a, b) {
   resultado = a + b;
@@ -36,3 +37,24 @@ function modulo (a, b) {
   console.log(resultado);
 }
 
+// Switch
+
+switch(1) {
+  case 1:
+    adicao(a, b);
+    break;
+  case 2:
+    subtracao(a, b);
+    break;
+  case 3:
+    multiplicacao(a, b);
+    break;
+  case 4:
+    divisao(a, b);
+    break;
+  case 5:
+    modulo(a, b);
+    break;
+  default:
+    console.log("Nenhuma opção escolhida.");
+}
