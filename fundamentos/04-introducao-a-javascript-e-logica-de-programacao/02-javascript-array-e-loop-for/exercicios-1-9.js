@@ -61,7 +61,14 @@ function exercicio08 () {
   for (let i = 0; i < 25; i++) {
     arr[i] = (i + 1);
   }
-  console.log(arr);
+  return arr;
 }
 
-exercicio08(numbers);
+function exercicio09 () {
+  arr = exercicio08();
+  for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i] / 2);
+  }
+}
+
+exercicio09(numbers);
