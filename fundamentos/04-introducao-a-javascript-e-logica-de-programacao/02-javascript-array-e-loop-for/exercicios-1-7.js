@@ -14,4 +14,13 @@ function exercicio02 (numbers) {
   console.log(result);
 }
 
-exercicio02(numbers);
+function exercicio03 (numbers) {
+  let result = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    result += numbers[i];
+  }
+  result = (result / numbers.length);
+  console.log(result);
+}
+
+exercicio03(numbers);
