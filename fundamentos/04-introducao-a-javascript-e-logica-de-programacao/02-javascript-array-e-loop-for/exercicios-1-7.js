@@ -48,4 +48,12 @@ function exercicio06 (numbers) {
   console.log(count > 0 ? count : "Não há valores ímpares.");
 }
 
-exercicio06(numbers);
+function exercicio07 (numbers) {
+  let smallest = numbers[0];
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] < smallest) smallest = numbers[i];
+  }
+  console.log(smallest);
+}
+
+exercicio07(numbers);
