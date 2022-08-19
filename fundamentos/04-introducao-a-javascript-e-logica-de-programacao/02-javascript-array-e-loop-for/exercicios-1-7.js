@@ -32,4 +32,12 @@ function exercicio04 (numbers) {
   console.log(result > 20 ? "Valor maior que 20." : "Valor menor que 20.");
 }
 
-exercicio04(numbers);
+function exercicio05 (numbers) {
+  let biggest = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > biggest) biggest = numbers[i];
+  }
+  console.log(biggest);
+}
+
+exercicio05(numbers);
