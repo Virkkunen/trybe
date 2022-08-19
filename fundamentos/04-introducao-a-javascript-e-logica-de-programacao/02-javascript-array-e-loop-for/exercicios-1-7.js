@@ -23,4 +23,13 @@ function exercicio03 (numbers) {
   console.log(result);
 }
 
-exercicio03(numbers);
+function exercicio04 (numbers) {
+  let result = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    result += numbers[i];
+  }
+  result = (result / numbers.length);
+  console.log(result > 20 ? "Valor maior que 20." : "Valor menor que 20.");
+}
+
+exercicio04(numbers);
