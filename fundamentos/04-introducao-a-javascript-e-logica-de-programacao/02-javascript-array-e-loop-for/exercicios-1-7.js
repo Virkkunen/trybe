@@ -40,4 +40,12 @@ function exercicio05 (numbers) {
   console.log(biggest);
 }
 
-exercicio05(numbers);
+function exercicio06 (numbers) {
+  let count = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 > 0) count++;
+  }
+  console.log(count > 0 ? count : "Não há valores ímpares.");
+}
+
+exercicio06(numbers);
