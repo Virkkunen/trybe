@@ -56,4 +56,12 @@ function exercicio07 (numbers) {
   console.log(smallest);
 }
 
-exercicio07(numbers);
+function exercicio08 () {
+  let arr = [];
+  for (let i = 0; i < 25; i++) {
+    arr[i] = (i + 1);
+  }
+  console.log(arr);
+}
+
+exercicio08(numbers);
