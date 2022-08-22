@@ -17,3 +17,25 @@ function inverter (str) {
 }
 
 console.log(inverter("tryber"));
+
+function maiorPalavra () {
+  const array = ['java', 'javascript', 'python', 'html', 'css'];
+  let maior = "";
+  for (let i = 0; i < array.length; i += 1) {
+    if (array[i].length > maior.length) maior = array[i];
+  }
+  return maior;
+}
+
+console.log(maiorPalavra());
+
+function menorPalavra () {
+  const array = ['java', 'javascript', 'python', 'html', 'css'];
+  let menor = array[0];
+  for (let i = 0; i < array.length; i += 1) {
+    if (array[i].length < menor.length) menor = array[i];
+  }
+  return menor;
+}
+
+console.log(menorPalavra());
