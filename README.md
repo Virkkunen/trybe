@@ -31,7 +31,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 01: Introdução - JavaScript
 - [x] [01: JavaScript - Primeiros passos](fundamentos/04-introducao-a-javascript-e-logica-de-programacao/01-javascript-primeiros-passos)
 - [x] [02: JavaScript - Array e loop for](fundamentos/04-introducao-a-javascript-e-logica-de-programacao/02-javascript-array-e-loop-for)
-- [ ] 03: JavaScript - Lógica de programação e algoritmos
+- [x] [03: JavaScript - Lógica de programação e algoritmos](fundamentos/04-introducao-a-javascript-e-logica-de-programacao/03-javascript-logica-de-programacao-e-algoritmos)
 - [ ] 04: JavaScript - Objetos e funções
 - [ ] **05: Projeto - Playground Functions**
 
