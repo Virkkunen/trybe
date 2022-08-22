@@ -7,3 +7,13 @@ function fatorial (num) {
 }
 
 console.log(fatorial(10));
+
+function inverter (str) {
+  result = "";
+  for (let i = str.length - 1; i >= 0; i -= 1) {
+    result += str[i];
+  }
+  return result;
+}
+
+console.log(inverter("tryber"));
