@@ -96,7 +96,16 @@ exercicio6(leitor);
 
 function exercicio7 (obj) {
   obj.livrosFavoritos.push({titulo: 'Harry Potter e o Prisioneiro de Azkaban', autor: 'JK Rowling', editora: 'Rocco'});
-  console.log(obj);
 }
 
 exercicio7(leitor);
+
+// 🚀 8 - Acesse as chaves nome e livrosFavoritos e faça um console.log no seguinte formato: "Julia tem 2 livros favoritos".
+
+function exercicio8 (obj) {
+  if (obj.livrosFavoritos.length >= 2) {
+    console.log(`${obj.nome} tem 2 livros favoritos`);
+  }
+}
+
+exercicio8(leitor);
