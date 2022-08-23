@@ -11,3 +11,14 @@ function helloName (obj) {
 }
 
 helloName(info);
+
+// 🚀 2 - Insira no objeto uma nova propriedade com o nome de chave 'recorrente' e o valor 'Sim' e, em seguida, imprima o objeto no console. 
+
+function addInfo (obj) {
+  obj.recorrente = "Sim";
+  console.log(obj);
+}
+
+addInfo(info);
+
+// 3- Faça um for/in que mostre todas as chaves do objeto.
