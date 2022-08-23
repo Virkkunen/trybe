@@ -87,6 +87,16 @@ let leitor = {
 
 function exercicio6 (obj) {
   console.log(`O livro favorito de ${obj.nome} ${obj.sobrenome} se chama '${obj.livrosFavoritos[0].titulo}'`);
+  console.log('\n')
 }
 
 exercicio6(leitor);
+
+// 🚀 7 - Adicione um novo livro favorito na chave livrosFavoritos, que é um array.
+
+function exercicio7 (obj) {
+  obj.livrosFavoritos.push({titulo: 'Harry Potter e o Prisioneiro de Azkaban', autor: 'JK Rowling', editora: 'Rocco'});
+  console.log(obj);
+}
+
+exercicio7(leitor);
