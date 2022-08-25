@@ -27,15 +27,15 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [04: HTML Semântico](fundamentos/03-introducao-a-html-e-css/04-html-semantico)
 - [x] [**05: Projeto - Lessons Learned**](fundamentos/projetos/lessons-learned/)
 
-#### Bloco 04: Introdução à JavaScript e Lógica de Programação ⏳
+#### Bloco 04: Introdução à JavaScript e Lógica de Programação ✅
 - [x] 01: Introdução - JavaScript
 - [x] [01: JavaScript - Primeiros passos](fundamentos/04-introducao-a-javascript-e-logica-de-programacao/01-javascript-primeiros-passos)
 - [x] [02: JavaScript - Array e loop for](fundamentos/04-introducao-a-javascript-e-logica-de-programacao/02-javascript-array-e-loop-for)
 - [x] [03: JavaScript - Lógica de programação e algoritmos](fundamentos/04-introducao-a-javascript-e-logica-de-programacao/03-javascript-logica-de-programacao-e-algoritmos)
 - [x] [04: JavaScript - Objetos e funções](fundamentos/04-introducao-a-javascript-e-logica-de-programacao/04-javascript-objetos-e-funcoes)
-- [ ] **05: Projeto - Playground Functions**
+- [x] [**05: Projeto - Playground Functions**](fundamentos/projetos/playground-functions)
 
-#### Bloco 05: JavaScript: DOM, Eventos e Web Storage
+#### Bloco 05: JavaScript: DOM, Eventos e Web Storage ⏳
 - [ ] 01: JavaScript - DOM e seletores
 - [ ] 02: JavaScript - Trabalhando com elementos
 - [ ] 03: JavaScript - Eventos
