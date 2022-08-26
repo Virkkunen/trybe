@@ -36,8 +36,8 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [**05: Projeto - Playground Functions**](fundamentos/projetos/playground-functions)
 
 #### Bloco 05: JavaScript: DOM, Eventos e Web Storage ⏳
-- [ ] 01: JavaScript - DOM e seletores
-- [ ] 02: JavaScript - Trabalhando com elementos
+- [x] [01: JavaScript - DOM e seletores](fundamentos/05-javascript-dom-eventos-e-webstorage/01-javascript-dom-e-seletores)
+- [x] [02: JavaScript - Trabalhando com elementos](fundamentos/05-javascript-dom-eventos-e-webstorage/02-javascript-trabalhando-com-elementos)
 - [ ] 03: JavaScript - Eventos
 - [ ] 04: JavaScript - Web Storage
 - [ ] 05: Fundamentos - JavaScript - Projetos
