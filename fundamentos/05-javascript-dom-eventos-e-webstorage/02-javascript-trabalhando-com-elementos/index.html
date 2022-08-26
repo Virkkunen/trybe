@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      function createElement(tag, tagClass, inner, src) {
+        const newTag = document.createElement(tag);
+        if (tagClass) newTag.classList.add(tagClass);
+        if (inner) newTag.innerHTML = inner;
+        if (src) newTag.src = src;
+        document.body.appendChild(newTag);
+        return newTag;
+      }
+
+      function placeElement(element, tagName, pos) {
+        document.getElementsByTagName(tagName)[pos].appendChild(element);
+      }
+
+      function createList(order, id, arr) {
+        const newList = document.createElement(order);
+        newList.setAttribute('id', id);
+        document.body.appendChild(newList);
+        addToList(id, arr);
+        return newList;
+      }
+
+      function addToList(id, arr) {
+        const list = document.getElementById(id);
+        arr.forEach((item) => {
+          let li = document.createElement("li");
+          li.innerText = item;
+          list.appendChild(li);
+        })
+      }
+
+      function modifyClass(tag, pos, mod, tagClass, modClass) {
+        const newTag = document.getElementsByTagName(tag)[pos];
+        if (mod === "add") newTag.className = tagClass;
+        if (mod === "del") newTag.classList.remove(tagClass);
+        if (mod === "mod") {
+          newTag.classList.remove(tagClass);
+          newTag.className = modClass;
+        }
+        return newTag;
+      }
+
+      function removeTag(tagClass, pos) {
+        const selTag = document.getElementsByClassName(tagClass);
+        selTag[pos].remove();
+      }
+
+      const header = createElement("h1", "", "Exercício 5.2 - JavaScript DOM");
+      const main = createElement("main", "main-content");
+      const section = createElement("section", "center-content");
+      const p = createElement("p", "", "Lorem ipsum pri");
+      const sectionLeft = createElement("section", "left-content");
+      const sectionRight = createElement("section", "right-content");
+      const img = createElement("img", "small-image", "", "https://picsum.photos/200");
+
+      placeElement(section, "main", 0);
+      placeElement(sectionLeft, "main", 0);
+      placeElement(sectionRight, "main", 0);
+      placeElement(p, "section", 0);
+      placeElement(img, "section", 1)
+
+      const list01 = createList("ul", "list01", ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"]);
+      placeElement(list01, "section", 2);
+
+      const header31 = createElement("h3");
+      const header32 = createElement("h3");
+      const header33 = createElement("h3");
+      placeElement(header31, "main", 0);
+      placeElement(header32, "main", 0);
+      placeElement(header33, "main", 0);
+
+      modifyClass("h1", 0, "add", "title");
+
+      for (let i = 0; i <= 3; i += 1) {
+        modifyClass("h3", i, "add", "description")
+      }
+
+      removeTag("left-content", 0);
+
+    </script>
+  </body>
+</html>
