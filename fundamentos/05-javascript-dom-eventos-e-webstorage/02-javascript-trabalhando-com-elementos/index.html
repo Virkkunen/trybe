@@ -87,6 +87,21 @@
         })
       }
 
+      function modifyClass(tag, pos, mod, tagClass, modClass) {
+        const newTag = document.getElementsByTagName(tag)[pos];
+        if (mod === "add") newTag.className = tagClass;
+        if (mod === "del") newTag.classList.remove(tagClass);
+        if (mod === "mod") {
+          newTag.classList.remove(tagClass);
+          newTag.className = modClass;
+        }
+        return newTag;
+      }
+
+      function removeTag(tagClass, pos) {
+        const selTag = document.getElementsByClassName(tagClass);
+        selTag[pos].remove();
+      }
 
       const header = createElement("h1", "", "Exercício 5.2 - JavaScript DOM");
       const main = createElement("main", "main-content");
@@ -104,6 +119,21 @@
 
       const list01 = createList("ul", "list01", ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"]);
       placeElement(list01, "section", 2);
+
+      const header31 = createElement("h3");
+      const header32 = createElement("h3");
+      const header33 = createElement("h3");
+      placeElement(header31, "main", 0);
+      placeElement(header32, "main", 0);
+      placeElement(header33, "main", 0);
+
+      modifyClass("h1", 0, "add", "title");
+
+      for (let i = 0; i <= 3; i += 1) {
+        modifyClass("h3", i, "add", "description")
+      }
+
+      removeTag("left-content", 0);
 
     </script>
   </body>
