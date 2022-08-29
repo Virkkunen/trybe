@@ -158,7 +158,29 @@ function addTaskEvent() {
 function addTaskColour(evt) {
   const task = evt.target;
   if (task.className === 'my-tasks' || !task.matches('div')) return;
-  return task.className === 'task selected' ? task.className = 'task' : task.className = 'task selected'
+  if (task.className === 'task selected') {
+    task.className = 'task'
+    return;
+  }
+  task.className = 'task selected';
 }
 
 addTaskEvent();
+
+// 10
+function addClickToDay() {
+  document.getElementById('days').addEventListener('click', addColourToDay);
+}
+
+function addColourToDay(evt) {
+  const colour = document.getElementsByClassName('selected')[0].style.backgroundColor;
+  if (evt.target.matches('li')) {
+    if (evt.target.style.backgroundColor === colour) {
+      evt.target.style.backgroundColor = '';
+    } else {
+      evt.target.style.backgroundColor = colour;
+    }
+  }
+}
+
+addClickToDay();
