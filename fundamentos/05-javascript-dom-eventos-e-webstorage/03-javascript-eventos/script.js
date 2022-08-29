@@ -17,7 +17,7 @@ createDaysOfTheWeek();
 
 let decemberDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
-
+// 1
 function createDays(arrDays) {
   const ulDays = document.getElementById('days');
   arrDays.forEach((item) => {
@@ -32,6 +32,12 @@ function createDays(arrDays) {
 
 createDays(decemberDaysList);
 
+// 2
+function positionHolidayBtn(btn) {
+  const div = document.getElementsByClassName('buttons-container')[0];
+  div.appendChild(btn);
+}
+
 function createHolidayBtn(str) {
   const newBtn = document.createElement('button');
   newBtn.setAttribute('id', 'btn-holiday');
@@ -39,9 +45,25 @@ function createHolidayBtn(str) {
   positionHolidayBtn(newBtn);
 }
 
-function positionHolidayBtn(btn) {
-  const div = document.getElementsByClassName('buttons-container')[0];
-  div.appendChild(btn);
+createHolidayBtn('Feriados');
+
+// 3
+
+function addHolidayBtnEvent() {
+  return document.getElementById('btn-holiday').addEventListener('click', changeHolidayBg);
 }
 
-createHolidayBtn('Feriados');
+function changeHolidayBg() {
+  console.log('holiday click');
+  const holidays = document.getElementsByClassName('holiday');
+  for (let i of holidays) {
+    if (i.style.backgroundColor) {
+      i.removeAttribute('style');
+    } else {
+      i.style.backgroundColor = '#83a598';
+    }
+  }
+  return holidays;
+}
+
+addHolidayBtnEvent();
