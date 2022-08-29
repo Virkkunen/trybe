@@ -126,3 +126,18 @@ function zoomOut(evt) {
 }
 
 addDayHoverEvent();
+
+// 7
+function positionEvent(el) {
+  const taskList = document.getElementsByClassName('my-tasks')[0];
+  taskList.appendChild(el);
+  return taskList;
+}
+
+function createEvent(str) {
+  const newEvent = document.createElement('span');
+  newEvent.innerText = str;
+  positionEvent(newEvent);
+}
+
+createEvent('lorem ipsum');
