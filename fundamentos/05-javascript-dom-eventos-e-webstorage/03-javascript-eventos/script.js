@@ -142,12 +142,23 @@ function createEvent(str) {
 
 createEvent('lorem ipsum');
 
-function createDescription(colour) {
-  const newDesc = document.createElement('div');
-  newDesc.style.backgroundColor = colour;
-  positionEvent(newDesc);
+function createTask(colour) {
+  const newTask = document.createElement('div');
+  newTask.style.backgroundColor = colour;
+  positionEvent(newTask);
 }
 
-createDescription('#d3869b');
+createTask('#d3869b');
 
 // 9
+function addTaskEvent() {
+  document.getElementsByClassName('my-tasks')[0].addEventListener('click', addTaskColour);
+}
+
+function addTaskColour(evt) {
+  const task = evt.target;
+  if (task.className === 'my-tasks' || !task.matches('div')) return;
+  return task.className === 'task selected' ? task.className = 'task' : task.className = 'task selected'
+}
+
+addTaskEvent();
