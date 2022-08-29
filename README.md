@@ -38,7 +38,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 #### Bloco 05: JavaScript: DOM, Eventos e Web Storage ⏳
 - [x] [01: JavaScript - DOM e seletores](fundamentos/05-javascript-dom-eventos-e-webstorage/01-javascript-dom-e-seletores)
 - [x] [02: JavaScript - Trabalhando com elementos](fundamentos/05-javascript-dom-eventos-e-webstorage/02-javascript-trabalhando-com-elementos)
-- [ ] 03: JavaScript - Eventos
+- [x] [03: JavaScript - Eventos](fundamentos/05-javascript-dom-eventos-e-webstorage/03-javascript-eventos)
 - [ ] 04: JavaScript - Web Storage
 - [ ] 05: Fundamentos - JavaScript - Projetos
 - [ ] **05: Projeto - Arte com Pixels**
