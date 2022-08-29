@@ -28,7 +28,7 @@ button {
 }
 
 #days li {
-  color: #777;
+  color: #fbf1c7;
   display: inline-block;
   font-size:20px;
   margin: 5px 0;
@@ -62,7 +62,7 @@ label {
 }
 
 .month-container ul li {
-  color: #ebdbb2;
+  color: #fbf1c7;
   font-size: 20px;
   letter-spacing: 3px;
   list-style-type: none;
@@ -110,7 +110,7 @@ label {
 }
 
 .tasks-container h3 {
-  color: #fbf1c7;
+  color: #ebdbb2;
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -141,7 +141,7 @@ label {
 }
 
 .week-days li {
-  color: #fbf1c7;
+  color: #bdae93;
   display: inline-block;
   text-align: center;
   vertical-align: middle;

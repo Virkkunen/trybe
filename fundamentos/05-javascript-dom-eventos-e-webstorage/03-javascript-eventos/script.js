@@ -31,3 +31,17 @@ function createDays(arrDays) {
 }
 
 createDays(decemberDaysList);
+
+function createHolidayBtn(str) {
+  const newBtn = document.createElement('button');
+  newBtn.setAttribute('id', 'btn-holiday');
+  newBtn.innerText = str;
+  positionHolidayBtn(newBtn);
+}
+
+function positionHolidayBtn(btn) {
+  const div = document.getElementsByClassName('buttons-container')[0];
+  div.appendChild(btn);
+}
+
+createHolidayBtn('Feriados');
