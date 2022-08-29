@@ -48,7 +48,6 @@ function createHolidayBtn(str) {
 createHolidayBtn('Feriados');
 
 // 3
-
 function addHolidayBtnEvent() {
   return document.getElementById('btn-holiday').addEventListener('click', changeHolidayBg);
 }
@@ -67,3 +66,18 @@ function changeHolidayBg() {
 }
 
 addHolidayBtnEvent();
+
+// 4
+function positionFridayBtn(btn) {
+  const div = document.getElementsByClassName('buttons-container')[0];
+  div.appendChild(btn);
+}
+
+function createFridayBtn(str) {
+  const newBtn = document.createElement('button');
+  newBtn.setAttribute('id', 'btn-friday');
+  newBtn.innerText = str;
+  positionHolidayBtn(newBtn);
+}
+
+createFridayBtn('Sexta-feira');
