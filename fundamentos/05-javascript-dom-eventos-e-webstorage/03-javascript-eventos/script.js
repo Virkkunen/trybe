@@ -127,7 +127,7 @@ function zoomOut(evt) {
 
 addDayHoverEvent();
 
-// 7
+// 7, 8
 function positionEvent(el) {
   const taskList = document.getElementsByClassName('my-tasks')[0];
   taskList.appendChild(el);
@@ -141,3 +141,13 @@ function createEvent(str) {
 }
 
 createEvent('lorem ipsum');
+
+function createDescription(colour) {
+  const newDesc = document.createElement('div');
+  newDesc.style.backgroundColor = colour;
+  positionEvent(newDesc);
+}
+
+createDescription('#d3869b');
+
+// 9
