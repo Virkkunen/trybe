@@ -81,3 +81,33 @@ function createFridayBtn(str) {
 }
 
 createFridayBtn('Sexta-feira');
+
+// 5
+function addFridayBtnEvent() {
+  return document.getElementById('btn-friday').addEventListener('click', changeFridayText);
+}
+
+function saveFridays() {
+  const fridays = document.getElementsByClassName('friday');
+  let arrayFridays = [];
+  for (let i of fridays) {
+    arrayFridays.push(i.innerText);
+  }
+  return arrayFridays;
+}
+
+const savedFridays = saveFridays();
+
+function changeFridayText() {
+  const fridays = document.getElementsByClassName('friday');
+  
+  for (let i in fridays) {
+    if (fridays[i].innerText !== 's') {
+      fridays[i].innerText = 's';
+    } else {
+      fridays[i].innerText = savedFridays[i];
+    }
+  }
+}
+
+addFridayBtnEvent();
