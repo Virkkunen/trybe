@@ -102,8 +102,8 @@ function changeFridayText() {
   const fridays = document.getElementsByClassName('friday');
   
   for (let i in fridays) {
-    if (fridays[i].innerText !== 's') {
-      fridays[i].innerText = 's';
+    if (fridays[i].innerText !== '🎉🍻') {
+      fridays[i].innerText = '🎉🍻';
     } else {
       fridays[i].innerText = savedFridays[i];
     }
@@ -111,3 +111,18 @@ function changeFridayText() {
 }
 
 addFridayBtnEvent();
+
+// 6 
+function addDayHoverEvent() {
+  document.getElementById('days').addEventListener('mouseover', zoomIn);
+  document.getElementById('days').addEventListener('mouseout', zoomOut);
+}
+
+function zoomIn(evt) {
+  if (evt.target.matches('li')) evt.target.style.fontSize = '32px'
+}
+function zoomOut(evt) {
+  if (evt.target.matches('li')) evt.target.style.fontSize = '20px'
+}
+
+addDayHoverEvent();
