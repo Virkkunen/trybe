@@ -78,11 +78,23 @@ header {
   color: #83a598;
 }
 
-.nordBgDark {
+.nordBgDark0 {
   background-color: #2e3440;
 }
-.nordBgLight {
+.nordBgDark1 {
+  background-color: #3b4252;
+}
+.nordBgDark2 {
+  background-color: #434c5e;
+}
+.nordBgLight0 {
+  background-color: #eceff4;
+}
+.nordBgLight1 {
   background-color: #e5e9f0;
+}
+.nordBgLight2 {
+  background-color: #d8dee9;
 }
 .nordFgDark {
   color: #eceff4;

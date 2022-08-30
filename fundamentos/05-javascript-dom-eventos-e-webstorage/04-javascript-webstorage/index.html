@@ -8,10 +8,10 @@
     <title>Exercício 5.4 - Webstorage</title>
   </head>
   <body class="gruvboxBgDark0">
-    <header class="gruvboxBgDark1 gruvboxFgDark">
+    <header class="gruvboxBgDark1 gruvboxFgDark" id="header">
       <h1>Lorem Ipsum Pri</h1>
     </header>
-    <main class="gruvboxFgDark">
+    <main class="gruvboxFgDark" id="main">
       <section class="content">
         <div class="text">
           <p>
@@ -44,6 +44,7 @@
             <input type="radio" name="color" value="gruvboxLight" id="gruvLight">
             <label for="gruvLight">Gruvbox Light</label>
           </div>
+          <br>
           <div class="input">
             <input type="radio" name="color" value="nordDark" id="nordDark">
             <label for="nordDark">Nord Dark</label>
@@ -59,10 +60,12 @@
             <input type="radio" name="font" value="sans" id="sans">
             <label for="sans">Sem serifa</label>
           </div>
+          <br>
           <div class="input">
             <input type="radio" name="font" value="serif" id="serif">
             <label for="serif">Com serifa</label>
           </div>
+          <br>
           <div class="input">
             <input type="radio" name="font" value="mono" id="mono">
             <label for="mono">Monospace</label>
@@ -72,7 +75,7 @@
           <h2>Tamanho:</h2>
           <form>
             <label for="size">Tamanho da fonte</label><br>
-            <input type="text" id="size" name="size"><br>
+            <input type="text" id="size" name="size"><br><br>
             <label for="spacing">Espaçamento de linha</label><br>
             <input type="text" id="spacing" name="spacing">
           </form>
