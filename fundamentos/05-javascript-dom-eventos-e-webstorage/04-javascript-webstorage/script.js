@@ -1,3 +1,14 @@
+// Storage
+window.addEventListener('load', function() {
+  if (localStorage.length < 1) return;
+  console.log('getting data from localStorage');
+  console.log(localStorage)
+
+  if (localStorage.font) {
+    changeFont(localStorage.font)
+  }
+});
+
 // Colors
 function changeGruvDark() {
   document.body.className = 'gruvboxBgDark0';
@@ -47,6 +58,7 @@ function changeColor(evt) {
   if (!evt.target.checked) return;
   console.log(evt.target.value);
   const theme = evt.target.value;
+  localStorage.setItem('theme', theme);
   if (theme === 'gruvboxDark') {
     changeGruvDark();
   } else if (theme === 'gruvboxLight') {
@@ -99,8 +111,14 @@ function changeFontMono() {
 }
 
 function changeFont(evt) {
-  const font = evt.target.value;
+  let font;
+  if (typeof(evt) == 'string') {
+    font = evt;
+  } else {
+    font = evt.target.value;
+  }
   console.log(font);
+  localStorage.setItem('font', font);
   if (font === 'sans') {
     changeFontSans();
   } else if (font === 'serif') {
@@ -123,7 +141,7 @@ radioButtonsFont();
 function changeFontSize(evt) {
   const fontSize = `${evt.target.value}px`
   console.log(fontSize)
-
+  localStorage.setItem('fontSize', fontSize);
   const div = document.getElementById('text');
   div.style.fontSize = fontSize;
 }
@@ -131,7 +149,7 @@ function changeFontSize(evt) {
 function changeLineHeight(evt) {
   const lineHeight = `${evt.target.value}px`
   console.log(lineHeight)
-
+  localStorage.setItem('lineHeight', lineHeight);
   const div = document.getElementById('text');
   div.style.lineHeight = lineHeight;
 }
