@@ -65,3 +65,55 @@ function radioButtonsColor() {
 }
 
 radioButtonsColor();
+
+// Fonts
+function changeFontSans() {
+  const header = document.getElementById('header');
+  const main = document.getElementById('main');
+
+  header.classList.remove('serif', 'monospace');
+  header.classList.add('sans');
+  main.classList.remove('serif', 'monospace');
+  main.classList.add('sans');
+}
+
+function changeFontSerif() {
+  const header = document.getElementById('header');
+  const main = document.getElementById('main');
+
+  header.classList.remove('sans', 'monospace');
+  header.classList.add('serif');
+  main.classList.remove('sans', 'monospace');
+  main.classList.add('serif');
+}
+
+function changeFontMono() {
+  const header = document.getElementById('header');
+  const main = document.getElementById('main');
+
+  header.classList.remove('serif', 'sans');
+  header.classList.add('monospace');
+  main.classList.remove('serif', 'sans');
+  main.classList.add('monospace');
+}
+
+function changeFont(evt) {
+  const font = evt.target.value;
+  console.log(font);
+  if (font === 'sans') {
+    changeFontSans();
+  } else if (font === 'serif') {
+    changeFontSerif();
+  } else if (font === 'mono') {
+    changeFontMono();
+  }
+}
+
+function radioButtonsFont() {
+  const btns = document.querySelectorAll('input[name="font"]');
+  for (let btn of btns) {
+    btn.addEventListener('click', changeFont);
+  }
+}
+
+radioButtonsFont();
