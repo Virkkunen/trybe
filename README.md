@@ -39,7 +39,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [01: JavaScript - DOM e seletores](fundamentos/05-javascript-dom-eventos-e-webstorage/01-javascript-dom-e-seletores)
 - [x] [02: JavaScript - Trabalhando com elementos](fundamentos/05-javascript-dom-eventos-e-webstorage/02-javascript-trabalhando-com-elementos)
 - [x] [03: JavaScript - Eventos](fundamentos/05-javascript-dom-eventos-e-webstorage/03-javascript-eventos)
-- [ ] 04: JavaScript - Web Storage
+- [x] [04: JavaScript - Web Storage](fundamentos/05-javascript-dom-eventos-e-webstorage/04-javascript-webstorage)
 - [ ] 05: Fundamentos - JavaScript - Projetos
 - [ ] **05: Projeto - Arte com Pixels**
 - [ ] **06: (Bônus) Projeto - Lista de tarefas**
