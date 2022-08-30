@@ -5,50 +5,48 @@ window.addEventListener('load', function() {
   console.log(localStorage)
 
   if (localStorage.font) {
-    changeFont(localStorage.font)
+    changeFont(localStorage.font);
+  }
+  if (localStorage.fontSize) {
+    changeFontSize(localStorage.fontSize);
   }
 });
 
+
+const header = document.getElementById('header');
+const main = document.getElementById('main');
+const config = document.getElementById('config');
+const headerTitle = document.getElementById('header-title');
+
 // Colors
 function changeGruvDark() {
-  document.body.className = 'gruvboxBgDark0';
-  const header = document.getElementById('header');
-  const main = document.getElementById('main');
-  const config = document.getElementById('config');
-
+  document.body.classList.add('gruvboxBgDark0');
+  document.body.classList.remove('gruvboxBgLight0', 'nordBgDark0', 'nordBgLight0');
   header.className = 'gruvboxBgDark1 gruvboxFgDark';
   main.className = 'gruvboxFgDark';
   config.className = 'configs gruvboxBgDark2';
 }
 
 function changeGruvLight() {
-  document.body.className = 'gruvboxBgLight0';
-  const header = document.getElementById('header');
-  const main = document.getElementById('main');
-  const config = document.getElementById('config');
-
+  document.body.classList.add('gruvboxBgLight0');
+  document.body.classList.remove('gruvboxBgDark0', 'nordBgDark0', 
+  'nordBgLight0');
   header.className = 'gruvboxBgLight1 gruvboxFgLight';
   main.className = 'gruvboxFgLight';
   config.className = 'configs gruvboxBgLight2';
 }
 
 function changeNordDark() {
-  document.body.className = 'nordBgDark0';
-  const header = document.getElementById('header');
-  const main = document.getElementById('main');
-  const config = document.getElementById('config');
-
+  document.body.classList.add('nordBgDark0');
+  document.body.classList.remove('gruvboxBgDark0', 'gruvboxBgLight0', 'nordBgLight0');
   header.className = 'nordBgDark1 nordFgDark';
   main.className = 'nordFgDark';
   config.className = 'configs nordBgDark2';
 }
 
 function changeNordLight() {
-  document.body.className = 'nordBgLight0';
-  const header = document.getElementById('header');
-  const main = document.getElementById('main');
-  const config = document.getElementById('config');
-
+  document.body.classList.add('nordBgLight0');
+  document.body.classList.remove('gruvboxBgDark0', 'gruvboxBgLight0', 'nordBgDark0');
   header.className = 'nordBgLight1 nordFgLight';
   main.className = 'nordFgLight';
   config.className = 'configs nordBgLight2';
@@ -81,33 +79,18 @@ radioButtonsColor();
 
 // Fonts
 function changeFontSans() {
-  const header = document.getElementById('header');
-  const main = document.getElementById('main');
-
-  header.classList.remove('serif', 'monospace');
-  header.classList.add('sans');
-  main.classList.remove('serif', 'monospace');
-  main.classList.add('sans');
+  document.body.classList.remove('serif', 'monospace');
+  document.body.classList.add('sans');
 }
 
 function changeFontSerif() {
-  const header = document.getElementById('header');
-  const main = document.getElementById('main');
-
-  header.classList.remove('sans', 'monospace');
-  header.classList.add('serif');
-  main.classList.remove('sans', 'monospace');
-  main.classList.add('serif');
+  document.body.classList.remove('sans', 'monospace');
+  document.body.classList.add('serif');
 }
 
 function changeFontMono() {
-  const header = document.getElementById('header');
-  const main = document.getElementById('main');
-
-  header.classList.remove('serif', 'sans');
-  header.classList.add('monospace');
-  main.classList.remove('serif', 'sans');
-  main.classList.add('monospace');
+  document.body.classList.remove('serif', 'sans');
+  document.body.classList.add('monospace');
 }
 
 function changeFont(evt) {
@@ -139,7 +122,12 @@ radioButtonsFont();
 
 // Font size
 function changeFontSize(evt) {
-  const fontSize = `${evt.target.value}px`
+  let fontSize;
+  if (typeof(evt) == 'string') {
+    fontSize = evt;
+  } else {
+    fontSize = `${evt.target.value}px`;
+  }
   console.log(fontSize)
   localStorage.setItem('fontSize', fontSize);
   const div = document.getElementById('text');
