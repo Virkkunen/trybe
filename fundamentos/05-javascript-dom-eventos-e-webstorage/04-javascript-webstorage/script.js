@@ -1,7 +1,7 @@
 // Storage
 window.addEventListener('load', function() {
   if (localStorage.length < 1) return;
-  console.log('getting data from localStorage');
+  console.log(':: Data restored from localStorage 🐱');
   console.log(localStorage)
 
   if (localStorage.font) {
@@ -9,6 +9,12 @@ window.addEventListener('load', function() {
   }
   if (localStorage.fontSize) {
     changeFontSize(localStorage.fontSize);
+  }
+  if (localStorage.lineHeight) {
+    changeLineHeight(localStorage.lineHeight);
+  }
+  if (localStorage.theme) {
+    changeColor(localStorage.theme);
   }
 });
 
@@ -53,9 +59,12 @@ function changeNordLight() {
 }
 
 function changeColor(evt) {
-  if (!evt.target.checked) return;
-  console.log(evt.target.value);
-  const theme = evt.target.value;
+  let theme;
+  if (typeof(evt) == 'string') {
+    theme = evt;
+  } else {
+    theme = evt.target.value;
+  }
   localStorage.setItem('theme', theme);
   if (theme === 'gruvboxDark') {
     changeGruvDark();
@@ -100,7 +109,6 @@ function changeFont(evt) {
   } else {
     font = evt.target.value;
   }
-  console.log(font);
   localStorage.setItem('font', font);
   if (font === 'sans') {
     changeFontSans();
@@ -128,15 +136,18 @@ function changeFontSize(evt) {
   } else {
     fontSize = `${evt.target.value}px`;
   }
-  console.log(fontSize)
   localStorage.setItem('fontSize', fontSize);
   const div = document.getElementById('text');
   div.style.fontSize = fontSize;
 }
 
 function changeLineHeight(evt) {
-  const lineHeight = `${evt.target.value}px`
-  console.log(lineHeight)
+  let lineHeight;
+  if (typeof(evt) == 'string') {
+    lineHeight = evt;
+  } else {
+    lineHeight = `${evt.target.value}px`;
+  }
   localStorage.setItem('lineHeight', lineHeight);
   const div = document.getElementById('text');
   div.style.lineHeight = lineHeight;
