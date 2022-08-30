@@ -1,3 +1,4 @@
+// Colors
 function changeGruvDark() {
   document.body.className = 'gruvboxBgDark0';
   const header = document.getElementById('header');
@@ -117,3 +118,27 @@ function radioButtonsFont() {
 }
 
 radioButtonsFont();
+
+// Font size
+function changeFontSize(evt) {
+  const fontSize = `${evt.target.value}px`
+  console.log(fontSize)
+
+  const div = document.getElementById('text');
+  div.style.fontSize = fontSize;
+}
+
+function changeLineHeight(evt) {
+  const lineHeight = `${evt.target.value}px`
+  console.log(lineHeight)
+
+  const div = document.getElementById('text');
+  div.style.lineHeight = lineHeight;
+}
+
+function inputFont() {
+  document.getElementById('size').addEventListener('change', changeFontSize);
+  document.getElementById('spacing').addEventListener('change', changeLineHeight);
+}
+
+inputFont();
