@@ -1,5 +1,5 @@
 # Demo
-### https://vrkknn.net/projects/pixels-art
+### https://vrkknn.net/projects/pixels-art/index.html
 ![](demo_small.gif)
 
 ---
