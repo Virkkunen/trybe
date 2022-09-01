@@ -1,6 +1,6 @@
 # Demo
 ### https://vrkknn.net/projects/pixels-art
-![](demo.gif)
+![](demo_small.gif)
 
 ---
 ![](cert.png)
