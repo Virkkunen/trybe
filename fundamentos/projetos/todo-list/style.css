@@ -1,0 +1,85 @@
+.selected {
+  background-color: gray;
+  border-radius: 8px;
+}
+
+body {
+  font-family: Fira Sans, sans-serif;
+  width: 768px;
+  margin: auto;
+  background-color: rgb(46 , 52 , 64);
+  color: rgb(229 , 233 , 240);
+  text-align: center;
+}
+
+main {
+  background-color: rgb(59 , 66 , 82);
+  padding: 20px;
+  border-radius: 0 0 8px 8px;
+  margin-top: 0;
+}
+
+h1 {
+  background-color: rgb(67 , 76 , 94);
+  color: rgb(236 , 239 , 244);
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+button {
+  background-color: rgb(163 , 190 , 140);
+  border: 1px solid rgb(46 , 52 , 64);
+  color: rgb(59 , 66 , 82);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+button:active {
+  filter: brightness(75%);
+}
+
+input {
+  padding: 8px;
+  border: 1px solid rgb(46 , 52 , 64);
+  border-radius: 8px;
+  background-color: rgb(229 , 233 , 240);
+  color: rgb(46 , 52 , 64);
+}
+
+li {
+  line-height: 32px;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#apaga-tudo {
+  background-color: rgb(191 , 97 , 106);
+  color: rgb(229 , 233 , 240);
+}
+
+#remover-finalizados {
+  background-color: rgb(180 , 142 , 173);
+  color: rgb(229 , 233 , 240);
+}
+
+#remover-selecionado {
+  background-color: rgb(235 , 203 , 139);
+  color: rgb(46 , 52 , 64);
+}
+
+#salvar-tarefas {
+  background-color: rgb(94 , 129 , 172);
+  color: rgb(229 , 233 , 240);
+}
+
+.position {
+  margin-bottom: 8px;
+}

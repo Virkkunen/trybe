@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <title>ToDo List</title>
+</head>
+<body>
+  <header>
+    <h1>Minha Lista de Tarefas</h1>
+  </header>
+  <main>
+    <div>
+      <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    </div>
+    <div>
+      <input type="text" id="texto-tarefa" placeholder="Digite algo...">
+      <button id="criar-tarefa">Criar tarefa</button>
+    </div>
+    <div>
+      <ol id="lista-tarefas"></ol>
+    </div>
+    <div class="position">
+      <button id="mover-cima">⬆️</button>
+      <button id="mover-baixo">⬇️</button>
+    </div>
+    <div class="configs">
+      <button id="apaga-tudo">Remover tudo</button>
+      <button id="remover-finalizados">Remover finalizados</button>
+      <button id="remover-selecionado">Remover selecionado</button>
+      <button id="salvar-tarefas">Salvar lista</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
