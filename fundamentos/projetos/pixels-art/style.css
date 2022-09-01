@@ -1,0 +1,85 @@
+/* * {
+  transition: ease-in-out 0.3s;
+} */
+
+body {
+  font-family: Silkscreen, monospace;
+  background-color: rgb(40, 40, 40);
+  color: rgb(251, 241, 199);
+  max-width: 768px;
+}
+
+#color-palette {
+  padding: 20px;
+  display: flex;
+  gap: 12px;
+  width: 204.4px; /* gambiarra que funciona */
+  background-color: #3c3836;
+}
+
+.color {
+  border: 1px solid black;
+  padding: 20px;
+  display: inline-block;
+}
+
+.black {
+  background-color: black;
+}
+
+button {
+  border: 1px solid black;
+  height: 41.1px;
+  width: auto;
+  cursor: pointer;
+  display: inline-block;
+  background-color: rgb(235, 219, 178);
+  color: rgb(29, 32, 33);
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+button:active {
+  filter: brightness(75%);
+}
+
+#pixel-board {
+  display: grid;
+}
+
+.pixel {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.clear {
+  padding: 10px 2px;
+  width: 33%;
+  align-items: center;
+}
+
+#clear-board {
+  background-color: #9d0006;
+  color: #fbf1c7;
+  margin: auto;
+}
+
+.input {
+  display: flex;
+  margin: 10px 0;
+}
+
+#board-size {
+  width: 95px;
+}
+
+#generate-board {
+  padding: 10px 20px;
+  background-color: #98971a;
+  color: #fbf1c7;
+}
