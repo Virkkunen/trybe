@@ -40,16 +40,16 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [02: JavaScript - Trabalhando com elementos](fundamentos/05-javascript-dom-eventos-e-webstorage/02-javascript-trabalhando-com-elementos)
 - [x] [03: JavaScript - Eventos](fundamentos/05-javascript-dom-eventos-e-webstorage/03-javascript-eventos)
 - [x] [04: JavaScript - Web Storage](fundamentos/05-javascript-dom-eventos-e-webstorage/04-javascript-webstorage)
-- [ ] 05: Fundamentos - JavaScript - Projetos
-- [ ] **05: Projeto - Arte com Pixels**
-- [ ] **06: (Bônus) Projeto - Lista de tarefas**
+- [x] 05: Fundamentos - JavaScript - Projetos
+- [x] [**05: Projeto - Arte com Pixels**](fundamentos/projetos/pixels-art)
+- [x] [**06: (Bônus) Projeto - Lista de tarefas**](fundamentos/projetos/todo-list)
 - [ ] **07: (Bônus) Projeto - Meme Generator**
 - [ ] **07: (Bônus) Projeto - Adivinhe a cor**
 - [ ] **07: (Bônus) Projeto - Carta misteriosa**
 
 #### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
 - [ ] 01: HTML & CSS - Forms
-- [ ] 02: Bibliotecas JavaScripte Frameworks CSS
+- [ ] 02: Bibliotecas JavaScript e Frameworks CSS
 - [ ] 03: Introdução - CSS Flexbox
 - [ ] 03: CSS Flexbox - Parte 1
 - [ ] 04: CSS Flexbox - Parte 2
