@@ -44,7 +44,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [**05: Projeto - Arte com Pixels**](fundamentos/projetos/pixels-art)
 - [x] [**06: (Bônus) Projeto - Lista de tarefas**](fundamentos/projetos/todo-list)
 - [x] [**07: (Bônus) Projeto - Meme Generator**](fundamentos/projetos/meme-generator)
-- [ ] **07: (Bônus) Projeto - Adivinhe a cor**
+- [x] [**07: (Bônus) Projeto - Adivinhe a cor**](fundamentos/projetos/color-guess)
 - [ ] **07: (Bônus) Projeto - Carta misteriosa**
 
 #### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
