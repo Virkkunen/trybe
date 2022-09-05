@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/d460702b12.js" crossorigin="anonymous"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png"/>
+  <link rel="manifest" href="/assets/icons/site.webmanifest" />
+  <title>Color Guess</title>
+</head>
+<body>
+  <header>
+    <a class="back" href="/index.html" style="text-decoration: none; color: #a39ec4;"><i class="fas fa-arrow-left"><span style="font-family: monospace;"> Back to vrkknn.net</span></i></a>
+    <h1 id="title">Color Guess</h1>
+  </header>
+  <main>
+    <div id="texts">
+      <strong><p id="rgb-color"></p></strong>
+      <p id="answer">Pick a color</p>
+    </div>
+    <div class="balls">
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+    </div>
+  </main>
+  <footer>
+    <div id="score-full">
+      <span>Score: </span>
+      <span id="score">0</span>
+    </div>
+    <button id="reset-game">Refresh</button>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
