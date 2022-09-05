@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Generator: Refactor Edition</title>
+</head>
+<body>
+  <header>
+    <input type="text" maxlength="60" id="text-input">
+    <input type="file" accept="images/*" id="meme-insert">
+  </header>
+  <main>
+    <div id="meme-image-container">
+      <img src="" id="meme-image" />
+      <span id="meme-text"></span>
+    </div>
+  </main>
+  <footer>
+    <div>
+      <button id="fire"></button>
+      <button id="water"></button>
+      <button id="earth"></button>
+    </div>
+    <div class="images">
+      <img src="imgs/meme1.png" id="meme-1">
+      <img src="imgs/meme2.png" id="meme-2">
+      <img src="imgs/meme3.png" id="meme-3">
+      <img src="imgs/meme4.png" id="meme-4">
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
