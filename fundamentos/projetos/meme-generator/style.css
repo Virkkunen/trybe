@@ -1,0 +1,73 @@
+body {
+  width: 768px;
+  margin: auto;
+  margin-top: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(34 , 37 , 47);
+  color: aliceblue;
+}
+
+main {
+  margin: 20px;
+}
+
+#meme-image-container {
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  background-color: white;
+  width: fit-content;
+  margin: auto;
+}
+
+#meme-image {
+
+  /* só assim pro req 03 passar */
+  width: 384px;
+  height: 384px;
+  position: relative;
+  z-index: 0;
+  left: 0;
+  right: 0;
+}
+
+#meme-text {
+  position: absolute;
+  margin-top: 18px;
+  z-index: 1;
+  text-shadow: 5px 5px 5px black;
+  color: white;
+  font-size: 30px;
+}
+
+button {
+  padding: 12px;
+  margin: 0 8px;
+  border-radius: 8px;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
+
+.images {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.images img {
+  width: 64px;
+  margin: 0 8px;
+  border: 1px solid black;
+  border-radius: 8px;
+}

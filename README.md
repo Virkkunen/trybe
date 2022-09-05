@@ -43,7 +43,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 05: Fundamentos - JavaScript - Projetos
 - [x] [**05: Projeto - Arte com Pixels**](fundamentos/projetos/pixels-art)
 - [x] [**06: (Bônus) Projeto - Lista de tarefas**](fundamentos/projetos/todo-list)
-- [ ] **07: (Bônus) Projeto - Meme Generator**
+- [x] [**07: (Bônus) Projeto - Meme Generator**](fundamentos/projetos/meme-generator)
 - [ ] **07: (Bônus) Projeto - Adivinhe a cor**
 - [ ] **07: (Bônus) Projeto - Carta misteriosa**
 
