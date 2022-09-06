@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.main-content {
+  padding: 6px;
+  margin: 6px;
+  border: 1px solid black;
+}
+
+fieldset {
+  padding: 12px;
+}
+
+input {
+  margin: 0 6px;
+}
+
+.text-input {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  text-align: center;
+}
+
+.radio-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+
+legend {
+  background-color: black;
+  color: white;
+  padding: 3px 6px;
+}
+
+form {
+  margin: 12px 0;
+}
+
+.trybe-input {
+  width: auto;
+}
+
+textarea {
+  width: 98.5%;
+  height: 120px;
+}
