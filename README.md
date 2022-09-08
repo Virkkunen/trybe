@@ -47,8 +47,8 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [**07: (Bônus) Projeto - Adivinhe a cor**](fundamentos/projetos/color-guess)
 - [ ] **07: (Bônus) Projeto - Carta misteriosa**
 
-#### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
-- [ ] 01: HTML & CSS - Forms
+#### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo ⏳
+- [x] [01: HTML & CSS - Forms](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/01-html-css-forms)
 - [ ] 02: Bibliotecas JavaScript e Frameworks CSS
 - [ ] 03: Introdução - CSS Flexbox
 - [ ] 03: CSS Flexbox - Parte 1
