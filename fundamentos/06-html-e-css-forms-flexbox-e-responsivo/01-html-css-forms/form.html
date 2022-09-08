@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Forms</title>
+</head>
+<body>
+  <header>
+    <h1>Forms</h1>
+  </header>
+  <div class="main-content">
+    <form class="text-input">
+      <label for="name-input">Nome: </label>
+      <input type="text" name="name" id="name-input" minlength="10" maxlength="40">
+      <label for="email-input">Email: </label>
+      <input type="email" name="email" id="email-input" minlength="10" maxlength="50"> 
+    </form>
+    <form>
+      <fieldset class="radio-buttons">
+        <legend>Destino favorito:</legend>
+        <input type="radio" name="option" id="radio1">
+        <label for="radio1">Cidade</label>
+        <input type="radio" name="option" id="radio2">
+        <label for="radio2">Campo</label>
+        <input type="radio" name="option" id="radio3">
+        <label for="radio3">Praia</label>
+        <input type="radio" name="option" id="radio4">
+        <label for="radio4">Montanhas</label>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset class="trybe-input">
+        <legend>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</legend>
+        <textarea name="text" id="text-trip" maxlength="500"></textarea>
+      </fieldset>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
