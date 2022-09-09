@@ -50,8 +50,8 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 #### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo ⏳
 - [x] [01: HTML & CSS - Forms](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/01-html-css-forms)
 - [x] [02: Bibliotecas JavaScript e Frameworks CSS](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/02-bibliotecas-javascript-e-frameworks-css)
-- [ ] 03: Introdução - CSS Flexbox
-- [ ] 03: CSS Flexbox - Parte 1
+- [x] 03: Introdução - CSS Flexbox
+- [x] [03: CSS Flexbox - Parte 1](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/03-css-flexbox-parte-1)
 - [ ] 04: CSS Flexbox - Parte 2
 - [ ] 05: CSS Responsivo - Mobile First
 - [ ] **06: Projeto - Trybewars**
