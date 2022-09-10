@@ -35,17 +35,17 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [04: JavaScript - Objetos e funções](fundamentos/04-introducao-a-javascript-e-logica-de-programacao/04-javascript-objetos-e-funcoes)
 - [x] [**05: Projeto - Playground Functions**](fundamentos/projetos/playground-functions)
 
-#### Bloco 05: JavaScript: DOM, Eventos e Web Storage ⏳
+#### Bloco 05: JavaScript: DOM, Eventos e Web Storage ✅
 - [x] [01: JavaScript - DOM e seletores](fundamentos/05-javascript-dom-eventos-e-webstorage/01-javascript-dom-e-seletores)
 - [x] [02: JavaScript - Trabalhando com elementos](fundamentos/05-javascript-dom-eventos-e-webstorage/02-javascript-trabalhando-com-elementos)
 - [x] [03: JavaScript - Eventos](fundamentos/05-javascript-dom-eventos-e-webstorage/03-javascript-eventos)
 - [x] [04: JavaScript - Web Storage](fundamentos/05-javascript-dom-eventos-e-webstorage/04-javascript-webstorage)
-- [x] 05: Fundamentos - JavaScript - Projetos
+- [x] [05: Fundamentos - JavaScript - Projetos](fundamentos/projetos)
 - [x] [**05: Projeto - Arte com Pixels**](fundamentos/projetos/pixels-art)
 - [x] [**06: (Bônus) Projeto - Lista de tarefas**](fundamentos/projetos/todo-list)
 - [x] [**07: (Bônus) Projeto - Meme Generator**](fundamentos/projetos/meme-generator)
 - [x] [**07: (Bônus) Projeto - Adivinhe a cor**](fundamentos/projetos/color-guess)
-- [ ] **07: (Bônus) Projeto - Carta misteriosa**
+- [x] [**07: (Bônus) Projeto - Carta misteriosa**](fundamentos/projetos/mystery-letter)
 
 #### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo ⏳
 - [x] [01: HTML & CSS - Forms](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/01-html-css-forms)
