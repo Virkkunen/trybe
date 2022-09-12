@@ -52,7 +52,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [02: Bibliotecas JavaScript e Frameworks CSS](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/02-bibliotecas-javascript-e-frameworks-css)
 - [x] 03: Introdução - CSS Flexbox
 - [x] [03: CSS Flexbox - Parte 1](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/03-css-flexbox-parte-1)
-- [ ] 04: CSS Flexbox - Parte 2
+- [x] [04: CSS Flexbox - Parte 2](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/04-css-flexbox-parte-2)
 - [ ] 05: CSS Responsivo - Mobile First
 - [ ] **06: Projeto - Trybewars**
 
