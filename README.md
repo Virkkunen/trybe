@@ -54,7 +54,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [03: CSS Flexbox - Parte 1](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/03-css-flexbox-parte-1)
 - [x] [04: CSS Flexbox - Parte 2](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/04-css-flexbox-parte-2)
 - [ ] 05: CSS Responsivo - Mobile First
-- [ ] **06: Projeto - Trybewars**
+- [ ] **06: Projeto - Trybewarts**
 
 #### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
 - [ ] 01: JavaScript ES6 - let, const, arrow functions e template literals
