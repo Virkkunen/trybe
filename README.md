@@ -57,7 +57,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [**06: Projeto - Trybewarts**](fundamentos/projetos/trybewarts)
 
 #### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários ⏳
-- [ ] 01: JavaScript ES6 - let, const, arrow functions e template literals
+- [x] [01: JavaScript ES6 - let, const, arrow functions e template literals](fundamentos/07-introducao-a-javascript-es6-e-testes-unitarios/01-javascript-es6-let-const-arrow-functions-e-template-literals)
 - [ ] 02: JavaScript ES6 - Fluxo de exceção e Objetos
 - [ ] 03: Primeiros passos em Jest
 - [ ] **04: Projeto - JavaScript Testes unitários**
