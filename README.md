@@ -47,16 +47,16 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [**07: (Bônus) Projeto - Adivinhe a cor**](fundamentos/projetos/color-guess)
 - [x] [**07: (Bônus) Projeto - Carta misteriosa**](fundamentos/projetos/mystery-letter)
 
-#### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo ⏳
+#### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo ✅
 - [x] [01: HTML & CSS - Forms](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/01-html-css-forms)
 - [x] [02: Bibliotecas JavaScript e Frameworks CSS](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/02-bibliotecas-javascript-e-frameworks-css)
 - [x] 03: Introdução - CSS Flexbox
 - [x] [03: CSS Flexbox - Parte 1](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/03-css-flexbox-parte-1)
 - [x] [04: CSS Flexbox - Parte 2](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/04-css-flexbox-parte-2)
 - [x] [05: CSS Responsivo - Mobile First](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/05-css-responsivo-mobile-first)
-- [ ] **06: Projeto - Trybewarts**
+- [x] [**06: Projeto - Trybewarts**](fundamentos/projetos/trybewarts)
 
-#### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
+#### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários ⏳
 - [ ] 01: JavaScript ES6 - let, const, arrow functions e template literals
 - [ ] 02: JavaScript ES6 - Fluxo de exceção e Objetos
 - [ ] 03: Primeiros passos em Jest
