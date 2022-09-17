@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Fira Sans, sans-serif;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.header h1 {
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.339);
+}
+
+main {
+  display: flex;
+  flex: column nowrap;
+  justify-content: space-between;
+  background-color: rgb(225, 225, 225);
+  padding: 20px;
+}
+
+footer {
+  border-radius: 0 0 8px 8px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(29, 98, 85);
+  color: white;
+}
+
+.trybewarts-header-logo {
+  width: 50px;
+}
+
+form {
+  display: flex;
+}
+
+#evaluation-form {
+  min-width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#trybe-forms-logo {
+  order: 1;
+}
+
+#families {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-section {
+  display: flex;
+}
+
+#form-data {
+  display: none;
+  flex-flow: column wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  font-size: large;
+}
+
+input , button , select {
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.265);
+  padding: 6px;
+}
+
+button {
+  background-color: rgb(211, 134, 155);
+  color: white;
+  font-weight: 700;
+}
+
+.trybewarts-login {
+  gap: 6px;
+}
+
+div {
+  margin-bottom: 8px;
+}
