@@ -59,7 +59,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 #### Seção 07: Introdução à JavaScript ES6 e Testes Unitários ⏳
 - [x] [01: JavaScript ES6 - let, const, arrow functions e template literals](fundamentos/07-introducao-a-javascript-es6-e-testes-unitarios/01-javascript-es6-let-const-arrow-functions-e-template-literals)
 - [x] 02: JavaScript ES6 - Fluxo de exceção e Objetos
-- [x] [03: Primeiros passos em Jest](07-introducao-a-javascript-es6-e-testes-unitarios/03-primeiros-passos-em-jest/jest-test)
+- [x] [03: Primeiros passos em Jest](fundamentos/07-introducao-a-javascript-es6-e-testes-unitarios/03-primeiros-passos-em-jest/jest-test)
 - [ ] **04: Projeto - JavaScript Testes unitários**
 
 #### Seção 08: Higher Order Functions do JavaScript ES6
