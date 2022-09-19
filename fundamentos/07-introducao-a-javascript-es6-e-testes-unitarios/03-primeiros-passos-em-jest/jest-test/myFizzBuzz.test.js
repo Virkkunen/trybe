@@ -9,18 +9,18 @@ const  myFizzBuzz = require("./myFizzBuzz");
 
 describe("myFizzBuzz() testing", () => {
   it("Tests if myFizzBuzz(15) returns 'fizzbuzz'", () => {
-    expect(myFizzBuzz(15)).toEqual('fizzbuzz');
+    expect(myFizzBuzz(15)).toBe('fizzbuzz');
   });
   it("Tests if myFizzBuzz(9) returns 'fizz'", () => {
-    expect(myFizzBuzz(9)).toEqual('fizz');
+    expect(myFizzBuzz(9)).toBe('fizz');
   });
   it("Tests if myFizzBuzz(25) returns 'buzz'", () => {
-    expect(myFizzBuzz(25)).toEqual('buzz');
+    expect(myFizzBuzz(25)).toBe('buzz');
   });
   it("Tests if myFizzBuzz(4) returns 4", () => {
-    expect(myFizzBuzz(4)).toEqual(4);
+    expect(myFizzBuzz(4)).toBe(4);
   });
   it("Tests if myFizzBuzz('string') returns false", () => {
-    expect(myFizzBuzz('string')).toEqual(false);
+    expect(myFizzBuzz('string')).toBe(false);
   });
 });
