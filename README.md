@@ -56,13 +56,13 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [05: CSS Responsivo - Mobile First](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/05-css-responsivo-mobile-first)
 - [x] [**06: Projeto - Trybewarts**](fundamentos/projetos/trybewarts)
 
-#### Seção 07: Introdução à JavaScript ES6 e Testes Unitários ⏳
+#### Seção 07: Introdução à JavaScript ES6 e Testes Unitários ✅
 - [x] [01: JavaScript ES6 - let, const, arrow functions e template literals](fundamentos/07-introducao-a-javascript-es6-e-testes-unitarios/01-javascript-es6-let-const-arrow-functions-e-template-literals)
 - [x] 02: JavaScript ES6 - Fluxo de exceção e Objetos
 - [x] [03: Primeiros passos em Jest](fundamentos/07-introducao-a-javascript-es6-e-testes-unitarios/03-primeiros-passos-em-jest/jest-test)
-- [ ] **04: Projeto - JavaScript Testes unitários**
+- [x] [**04: Projeto - JavaScript Testes unitários**](fundamentos/projetos/js-unit-tests)
 
-#### Seção 08: Higher Order Functions do JavaScript ES6
+#### Seção 08: Higher Order Functions do JavaScript ES6 ⏳
 - [ ] 01: JavaScript ES6 - Introdução a Higher Order Functions
 - [ ] 02: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [ ] 03: JavaScript ES6 - Higher Order Functions - map e filter
