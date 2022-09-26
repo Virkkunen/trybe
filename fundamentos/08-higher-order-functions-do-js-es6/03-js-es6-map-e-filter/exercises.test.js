@@ -2,6 +2,10 @@ const {
   formattedBookNames, 
   authorAndAge,
   scifiAndFantasy, 
+  overSixty,
+  scifiAndFantasyAuthors,
+  overSixtyAuthors,
+  authorWith3DotsOnName,
 } = require("./exercises");
 
 const books = [
@@ -162,5 +166,83 @@ describe("Exercise 3", () => {
     ];
 
     expect(scifiAndFantasy(books)).toEqual(expectedResult);
+  });
+});
+
+describe("Exercise 4", () => {
+  it("Retorna um array de objetos", () => {
+    expect(overSixty(books)).toBeInstanceOf(Array);
+    expect(typeof overSixty(books)[0]).toBe('object');
+  });
+
+  it("Cria um array formado pelos livros com mais de 60 anos desde sua publicação. Esse array deve ser ordenado do livro mais velho ao mais novo.", () => {
+    const expectedResult = [
+      {
+        id: 6,
+        name: 'O Chamado de Cthulhu',
+        genre: 'Terror',
+        author: { name: 'H. P. Lovecraft', birthYear: 1890 },
+        releaseYear: 1928,
+      },
+      {
+        id: 3,
+        name: 'Fundação',
+        genre: 'Ficção Científica',
+        author: { name: 'Isaac Asimov', birthYear: 1920 },
+        releaseYear: 1951,
+      },
+      {
+        id: 2,
+        name: 'O Senhor dos Anéis',
+        genre: 'Fantasia',
+        author: { name: 'J. R. R. Tolkien', birthYear: 1892 },
+        releaseYear: 1954,
+      },
+    ];
+    expect(overSixty(books)).toEqual(expectedResult);
+  });
+});
+
+describe("Exercise 5", () => {
+  it("Retorna um array de strings", () => {
+    expect(scifiAndFantasyAuthors(books)).toBeInstanceOf(Array);
+    expect(typeof scifiAndFantasyAuthors(books)[0]).toBe('string');
+  });
+
+  it("Cria um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.", () => {
+    const expectedResult = [
+      'Frank Herbert',
+      'George R. R. Martin',
+      'Isaac Asimov',
+      'J. R. R. Tolkien',
+    ];
+    expect(scifiAndFantasyAuthors(books)).toEqual(expectedResult);
+  });
+});
+
+describe("Exercise 6", () => {
+  it("Retorna um array de strings", () => {
+    expect(overSixtyAuthors(books)).toBeInstanceOf(Array);
+    expect(typeof overSixtyAuthors(books)[0]).toBe('string');
+  });
+
+  it("Cria um array com o nome de todos os livros com mais de 60 anos de publicação.", () => {
+    const expectedResult = [
+      'O Senhor dos Anéis',
+      'Fundação',
+      'O Chamado de Cthulhu',
+    ];
+
+    expect(overSixtyAuthors(books)).toEqual(expectedResult);
+  });
+});
+
+describe("Exercise 7", () => {
+  it("Retorna uma string", () => {
+    expect(typeof authorWith3DotsOnName(books)).toBe('string');
+  });
+
+  it("Retorna o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais", () => {
+    expect(authorWith3DotsOnName(books)).toBe("O Senhor dos Anéis");
   });
 });

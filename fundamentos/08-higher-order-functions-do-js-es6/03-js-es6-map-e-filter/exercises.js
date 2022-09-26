@@ -71,12 +71,26 @@ const authorAndAge = (bookList) => bookList.map((book) => {
     author: book.author.name,
   };
   return authors;
-}).sort(function(a, b){return a.age - b.age});
+}).sort((a, b) => a.age - b.age);
 
 const scifiAndFantasy = (bookList) => bookList.filter((book) => book.genre === 'Fantasia' || book.genre === 'Ficção Científica');
+
+const overSixty = (bookList) => bookList.filter((book) => 2022 - book.releaseYear > 60).sort((a, b) => a.releaseYear - b.releaseYear);
+
+const scifiAndFantasyAuthors = (bookList) => scifiAndFantasy(bookList).map((book) => book.author.name).sort();
+
+const overSixtyAuthors = (bookList) => overSixty(bookList).sort((a, b) => b.releaseYear - a.releaseYear).map((book) => book.name);
+
+const authorWith3DotsOnName = (bookList) => bookList.find((book) => book.author.name === 'J. R. R. Tolkien').name;
+
+console.log(authorWith3DotsOnName(books));
 
 module.exports = { 
   formattedBookNames, 
   authorAndAge, 
   scifiAndFantasy,
+  overSixty,
+  scifiAndFantasyAuthors,
+  overSixtyAuthors,
+  authorWith3DotsOnName,
 };
