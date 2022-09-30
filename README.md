@@ -6,7 +6,7 @@ _"Trybe é uma escola de tecnologia que tem comprometimento genuíno com o suces
 _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento web, desenvolvimento, Front-end, Back-end, ciência da computação, metodologias ágeis e habilidades comportamentais."_
 
 # Módulos
-## Fundamentos do Desenvolvimento Web ⏳
+## Fundamentos do Desenvolvimento Web ✅
 
 #### Seção 01: Unix & Bash ✅
 - [x] 01: Fundamentos do Desenvolvimento Web
@@ -62,16 +62,16 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [03: Primeiros passos em Jest](fundamentos/07-introducao-a-javascript-es6-e-testes-unitarios/03-primeiros-passos-em-jest/jest-test)
 - [x] [**04: Projeto - JavaScript Testes unitários**](fundamentos/projetos/js-unit-tests)
 
-#### Seção 08: Higher Order Functions do JavaScript ES6 ⏳
+#### Seção 08: Higher Order Functions do JavaScript ES6 ✅ 
 - [x] [01: JavaScript ES6 - Introdução a Higher Order Functions](fundamentos/08-higher-order-functions-do-js-es6/01-js-es6-introducao-a-higher-order-functions)
 - [x] 02: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [x] 03: JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 04: JavaScript ES6 - Higher Order Functions - reduce
 - [x] [05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais](fundamentos/08-higher-order-functions-do-js-es6/05-js-es6-spread-rest-destructuring)
-- [ ] **06: Projeto - Zoo Functions**
+- [x] [**06: Projeto - Zoo Functions**](fundamentos/projetos/zoo-functions)
 
-## Frontend
-#### Seção 01: JavaScript e Testes Assíncronos
+## Frontend ⏳
+#### Seção 01: JavaScript e Testes Assíncronos ⏳
 - [ ] 01: Introdução - Frontend
 - [ ] 01: JavaScript Assíncrono e Callbacks
 - [ ] 02: JavaScript Assíncrono - Fetch API e async/await
