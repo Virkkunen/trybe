@@ -67,7 +67,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 02: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [x] 03: JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 04: JavaScript ES6 - Higher Order Functions - reduce
-- [x] 05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [x] [05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais](fundamentos/08-higher-order-functions-do-js-es6/05-js-es6-spread-rest-destructuring)
 - [ ] **06: Projeto - Zoo Functions**
 
 ## Frontend
