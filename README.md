@@ -72,8 +72,8 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 
 ## Frontend ⏳
 #### Seção 01: JavaScript e Testes Assíncronos ⏳
-- [ ] 01: Introdução - Frontend
-- [ ] 01: JavaScript Assíncrono e Callbacks
+- [x] 01: Introdução - Frontend
+- [x] [01: JavaScript Assíncrono e Callbacks](frontend/01-javascript-e-testes-assincronos/01-javascript-assincrono-e-callbacks)
 - [ ] 02: JavaScript Assíncrono - Fetch API e async/await
 - [ ] 03: Jest - Testes Assíncronos
 - [ ] **04: Projeto - Carrinho de Compras**
