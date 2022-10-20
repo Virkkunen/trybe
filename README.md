@@ -81,7 +81,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 #### Seção 02: Introdução à React ⏳
 - [x] 01: Introdução - React
 - [x] [01: "Hello World!" no React](frontend/02-introducao-ao-react/01-hello-world-no-react)
-- [ ] 02: Componentes React
+- [x] [02: Componentes React](frontend/02-introducao-ao-react/02-componentes-react)
 - [ ] **03: Projeto - Sistema Solar**
 
 #### Seção 03: Componentes com Estado, Eventos e Formulários React
