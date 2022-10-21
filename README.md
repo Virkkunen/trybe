@@ -78,13 +78,13 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 03: Jest - Testes Assíncronos
 - [x] [**04: Projeto - Carrinho de Compras**](frontend/projetos/shopping-cart/)
 
-#### Seção 02: Introdução à React ⏳
+#### Seção 02: Introdução à React ✅
 - [x] 01: Introdução - React
 - [x] [01: "Hello World!" no React](frontend/02-introducao-ao-react/01-hello-world-no-react)
 - [x] [02: Componentes React](frontend/02-introducao-ao-react/02-componentes-react)
-- [ ] **03: Projeto - Sistema Solar**
+- [x] [**03: Projeto - Sistema Solar**](frontend/projetos/solar-system)
 
-#### Seção 03: Componentes com Estado, Eventos e Formulários React
+#### Seção 03: Componentes com Estado, Eventos e Formulários React ⏳
 - [ ] 01: Componentes com estados e eventos
 - [ ] 02: Formulários no React
 - [ ] **03: Projeto - Tryunfo**
