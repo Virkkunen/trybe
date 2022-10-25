@@ -85,7 +85,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [**03: Projeto - Sistema Solar**](frontend/projetos/solar-system)
 
 #### Seção 03: Componentes com Estado, Eventos e Formulários React ⏳
-- [ ] 01: Componentes com estados e eventos
+- [x] [01: Componentes com estados e eventos](frontend/03-componentes-com-estado-eventos-e-formularios-no-react/01-componentes-com-estado-e-eventos)
 - [ ] 02: Formulários no React
 - [ ] **03: Projeto - Tryunfo**
 
