@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  /* background: linear-gradient(158.28deg, #036b52 24.4%, #001a13 55.21%); */
+  background-color: #c1d5d0;
+}
+
+.app {
+  margin: auto;
+  max-width: 1024px;
+}
+
+h1 {
+  padding: 24px;
+  text-align: center;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.label-box {
+  font-weight: 600;
+  margin: 0 6px 12px 0;
+}
+
+.attr-box {
+  display: flex;
+  flex-flow: column wrap;
+  font-weight: 600;
+  margin: 0 6px 12px 0;
+}
+
+.card-bg {
+  align-items: center;
+  background-color: white;
+  border-radius: 9px;
+  box-shadow: 0 4px 18.5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 534.33px;
+  justify-content: center;
+  width: 358.17px;
+}
+
+.card {
+  background-color: #036b52;
+  border-radius: 9px;
+  height: 514.86px;
+  text-align: center;
+  width: 338.7px;
+}
+
+.card-header {
+  background-color: #023031;
+  border-radius: 9px 9px 0 0;
+  text-align: end;
+}
+
+.card-header-text {
+  color: white;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-right: 12px;
+}
+
+.card-img {
+  border-radius: 9px;
+  margin: 10px 0 0;
+  max-height: 270.5px;
+  max-width: 308px;
+}
+
+.card-desc {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  margin: 8px;
+}
+
+.card-attr-bg {
+  align-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 9px;
+  display: flex;
+  flex-flow: row wrap;
+  height: 192.22px;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 308.53px;
+}
+
+.card-attr {
+  background-color: #f0f2f5;
+  border-radius: 9px;
+  display: flex;
+  height: 29.92px;
+  justify-content: space-between;
+  width: 276.41px;
+}
+
+.attr-name {
+  color: #3d495c;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-left: 10px;
+}
+
+.attr {
+  background-color: #023031;
+  border-radius: 0 9px 9px 0;
+  color: white;
+  font-weight: 600;
+  line-height: 150%;
+  width: 46.72px;
+}
+
+.card-rarity {
+  display: none;
+}
+
+.trunfo {
+  background: linear-gradient(158.28deg, #036b52 24.4%, #001a13 55.21%);
+  border-radius: 9px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: 600;
+  left: 186px;
+  padding: 6px;
+  position: relative;
+  top: -310px;
+  width: 128px;
+}

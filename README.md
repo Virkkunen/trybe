@@ -84,12 +84,12 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [02: Componentes React](frontend/02-introducao-ao-react/02-componentes-react)
 - [x] [**03: Projeto - Sistema Solar**](frontend/projetos/solar-system)
 
-#### Seção 03: Componentes com Estado, Eventos e Formulários React ⏳
+#### Seção 03: Componentes com Estado, Eventos e Formulários React ✅
 - [x] [01: Componentes com estados e eventos](frontend/03-componentes-com-estado-eventos-e-formularios-no-react/01-componentes-com-estado-e-eventos)
-- [ ] 02: Formulários no React
-- [ ] **03: Projeto - Tryunfo**
+- [x] 02: Formulários no React
+- [x] [**03: Projeto - Tryunfo**](frontend/projetos/tryunfo)
 
-#### Seção 04: Ciclo de Vida de Componentes e React Router
+#### Seção 04: Ciclo de Vida de Componentes e React Router ⏳
 - [ ] 01: Ciclo de vida de componentes
 - [ ] 02: React Router
 - [ ] **03: Projeto - Trybe Tunes**
