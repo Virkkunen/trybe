@@ -89,12 +89,12 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 02: Formulários no React
 - [x] [**03: Projeto - Tryunfo**](frontend/projetos/tryunfo)
 
-#### Seção 04: Ciclo de Vida de Componentes e React Router ⏳
-- [ ] 01: Ciclo de vida de componentes
-- [ ] 02: React Router
-- [ ] **03: Projeto - Trybe Tunes**
+#### Seção 04: Ciclo de Vida de Componentes e React Router ✅
+- [x] 01: Ciclo de vida de componentes
+- [x] 02: React Router
+- [x] [**03: Projeto - Trybe Tunes**](https://github.com/Virkkunen/trybe-trybetunes)
 
-#### Seção 05: Metodologias Ágeis
+#### Seção 05: Metodologias Ágeis ⏳
 - [ ] 01: Metodologias Ágeis
 - [ ] **02: Projeto - Frontend Online Store**
 
