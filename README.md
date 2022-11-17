@@ -95,8 +95,8 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [**03: Projeto - Trybe Tunes**](https://github.com/Virkkunen/trybe-trybetunes)
 
 #### Seção 05: Metodologias Ágeis ⏳
-- [ ] 01: Metodologias Ágeis
-- [ ] **02: Projeto - Frontend Online Store**
+- [x] 01: Metodologias Ágeis
+- [x] [**02: Projeto - Frontend Online Store**](https://github.com/Virkkunen/trybe-frontend-online-store)
 
 #### Seção 06: Testes automatizados com React Testing Library
 - [ ] 01: RTL - Primeiros passos
