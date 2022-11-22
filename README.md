@@ -98,13 +98,13 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 01: Metodologias Ágeis
 - [x] [**02: Projeto - Frontend Online Store**](https://github.com/Virkkunen/trybe-frontend-online-store)
 
-#### Seção 06: Testes automatizados com React Testing Library ⏳
+#### Seção 06: Testes automatizados com React Testing Library ✅
 - [x] 01: RTL - Primeiros passos
 - [x] 02: RTL - Mocks e Inputs
-- [ ] 03: RTL - Testando React Router
-- [ ] **04: Projeto - Testes em React**
+- [x] 03: RTL - Testando React Router
+- [x] [**04: Projeto - Testes em React**](https://github.com/Virkkunen/trybe-react-testing-library)
 
-#### Seção 07: Gerenciamento de estado com Redux
+#### Seção 07: Gerenciamento de estado com Redux ⏳
 - [ ] 01: Introdução ao Redux - O estado global da aplicação
 - [ ] 02: Usando o Redux no React
 - [ ] 03: Usando o Redux no React - Prática
