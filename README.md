@@ -116,8 +116,8 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [**01: Projeto - Jogo de Trivia**](https://github.com/Virkkunen/trybe-trivia)
 
 #### Seção 09: Context API e React Hooks ⏳
-- [ ] 01: Context API do React
-- [ ] 02: React Hooks - useState e useContext
+- [x] 01: Context API do React
+- [x] 02: React Hooks - useState e useContext
 - [ ] 03: React Hooks - useEffect e Hooks customizados
 - [ ] **04: Projeto - StarWars Datatable com Context API e Hooks**
 
