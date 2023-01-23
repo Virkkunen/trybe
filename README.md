@@ -118,8 +118,8 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 #### Seção 09: Context API e React Hooks ⏳
 - [x] 01: Context API do React
 - [x] 02: React Hooks - useState e useContext
-- [ ] 03: React Hooks - useEffect e Hooks customizados
-- [ ] **04: Projeto - StarWars Datatable com Context API e Hooks**
+- [x] 03: React Hooks - useEffect e Hooks customizados
+- [x] [**04: Projeto - StarWars Datatable com Context API e Hooks**](https://github.com/Virkkunen/trybe-star-wars-planet-search)
 
 #### Seção 10: Projeto App de Receitas
 - [ ] **01: Projeto - App de Receitas**
