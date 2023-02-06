@@ -70,7 +70,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais](fundamentos/08-higher-order-functions-do-js-es6/05-js-es6-spread-rest-destructuring)
 - [x] [**06: Projeto - Zoo Functions**](fundamentos/projetos/zoo-functions)
 
-## Frontend ⏳
+## Frontend ✅
 #### Seção 01: JavaScript e Testes Assíncronos ✅
 - [x] 01: Introdução - Frontend
 - [x] [01: JavaScript Assíncrono e Callbacks](frontend/01-javascript-e-testes-assincronos/01-javascript-assincrono-e-callbacks)
@@ -115,17 +115,17 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 #### Seção 08: Projeto Jogo de Trivia ✅
 - [x] [**01: Projeto - Jogo de Trivia**](https://github.com/Virkkunen/trybe-trivia)
 
-#### Seção 09: Context API e React Hooks ⏳
+#### Seção 09: Context API e React Hooks ✅
 - [x] 01: Context API do React
 - [x] 02: React Hooks - useState e useContext
 - [x] 03: React Hooks - useEffect e Hooks customizados
 - [x] [**04: Projeto - StarWars Datatable com Context API e Hooks**](https://github.com/Virkkunen/trybe-star-wars-planet-search)
 
-#### Seção 10: Projeto App de Receitas
-- [ ] **01: Projeto - App de Receitas**
+#### Seção 10: Projeto App de Receitas ✅
+- [x] [**01: Projeto - App de Receitas**](https://tryberecipes.vercel.app)
 
-## Backend
-#### Seção 01: Docker: Utilizando Containers
+## Backend ⏳
+#### Seção 01: Docker: Utilizando Containers ⏳
 - [ ] 01: Introdução - Backend
 - [ ] 01: Utilizando Containers - Docker
 - [ ] 02: Manipulando Imagens no Docker
