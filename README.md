@@ -25,7 +25,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [02: HTML & CSS - Primeiros passos em CSS](https://github.com/Virkkunen/virkkunen.github.io/tree/master)
 - [x] [03: HTML & CSS - Seletores e posicionamento](fundamentos/03-introducao-a-html-e-css/03-html-e-css-seletores-e-posicionamento/)
 - [x] [04: HTML Semântico](fundamentos/03-introducao-a-html-e-css/04-html-semantico)
-- [x] [**05: Projeto - Lessons Learned**](fundamentos/projetos/lessons-learned/)
+- [x] [**05: Projeto - Lessons Learned**](projetos/fundamentos/lessons-learned/)
 
 #### Seção 04: Introdução à JavaScript e Lógica de Programação ✅
 - [x] 01: Introdução - JavaScript
@@ -33,19 +33,19 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [02: JavaScript - Array e loop for](fundamentos/04-introducao-a-javascript-e-logica-de-programacao/02-javascript-array-e-loop-for)
 - [x] [03: JavaScript - Lógica de programação e algoritmos](fundamentos/04-introducao-a-javascript-e-logica-de-programacao/03-javascript-logica-de-programacao-e-algoritmos)
 - [x] [04: JavaScript - Objetos e funções](fundamentos/04-introducao-a-javascript-e-logica-de-programacao/04-javascript-objetos-e-funcoes)
-- [x] [**05: Projeto - Playground Functions**](fundamentos/projetos/playground-functions)
+- [x] [**05: Projeto - Playground Functions**](projetos/fundamentos/playground-functions)
 
 #### Seção 05: JavaScript: DOM, Eventos e Web Storage ✅
 - [x] [01: JavaScript - DOM e seletores](fundamentos/05-javascript-dom-eventos-e-webstorage/01-javascript-dom-e-seletores)
 - [x] [02: JavaScript - Trabalhando com elementos](fundamentos/05-javascript-dom-eventos-e-webstorage/02-javascript-trabalhando-com-elementos)
 - [x] [03: JavaScript - Eventos](fundamentos/05-javascript-dom-eventos-e-webstorage/03-javascript-eventos)
 - [x] [04: JavaScript - Web Storage](fundamentos/05-javascript-dom-eventos-e-webstorage/04-javascript-webstorage)
-- [x] [05: Fundamentos - JavaScript - Projetos](fundamentos/projetos)
-- [x] [**05: Projeto - Arte com Pixels**](fundamentos/projetos/pixels-art)
-- [x] [**06: (Bônus) Projeto - Lista de tarefas**](fundamentos/projetos/todo-list)
-- [x] [**07: (Bônus) Projeto - Meme Generator**](fundamentos/projetos/meme-generator)
-- [x] [**07: (Bônus) Projeto - Adivinhe a cor**](fundamentos/projetos/color-guess)
-- [x] [**07: (Bônus) Projeto - Carta misteriosa**](fundamentos/projetos/mystery-letter)
+- [x] [05: Fundamentos - JavaScript - Projetos](projetos/fundamentos)
+- [x] [**05: Projeto - Arte com Pixels**](projetos/fundamentos/pixels-art)
+- [x] [**06: (Bônus) Projeto - Lista de tarefas**](projetos/fundamentos/todo-list)
+- [x] [**07: (Bônus) Projeto - Meme Generator**](projetos/fundamentos/meme-generator)
+- [x] [**07: (Bônus) Projeto - Adivinhe a cor**](projetos/fundamentos/color-guess)
+- [x] [**07: (Bônus) Projeto - Carta misteriosa**](projetos/fundamentos/mystery-letter)
 
 #### Seção 06: HTML e CSS: Forms, Flexbox e Responsivo ✅
 - [x] [01: HTML & CSS - Forms](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/01-html-css-forms)
@@ -54,13 +54,13 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [03: CSS Flexbox - Parte 1](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/03-css-flexbox-parte-1)
 - [x] [04: CSS Flexbox - Parte 2](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/04-css-flexbox-parte-2)
 - [x] [05: CSS Responsivo - Mobile First](fundamentos/06-html-e-css-forms-flexbox-e-responsivo/05-css-responsivo-mobile-first)
-- [x] [**06: Projeto - Trybewarts**](fundamentos/projetos/trybewarts)
+- [x] [**06: Projeto - Trybewarts**](projetos/fundamentos/trybewarts)
 
 #### Seção 07: Introdução à JavaScript ES6 e Testes Unitários ✅
 - [x] [01: JavaScript ES6 - let, const, arrow functions e template literals](fundamentos/07-introducao-a-javascript-es6-e-testes-unitarios/01-javascript-es6-let-const-arrow-functions-e-template-literals)
 - [x] 02: JavaScript ES6 - Fluxo de exceção e Objetos
 - [x] [03: Primeiros passos em Jest](fundamentos/07-introducao-a-javascript-es6-e-testes-unitarios/03-primeiros-passos-em-jest/jest-test)
-- [x] [**04: Projeto - JavaScript Testes unitários**](fundamentos/projetos/js-unit-tests)
+- [x] [**04: Projeto - JavaScript Testes unitários**](projetos/fundamentos/js-unit-tests)
 
 #### Seção 08: Higher Order Functions do JavaScript ES6 ✅ 
 - [x] [01: JavaScript ES6 - Introdução a Higher Order Functions](fundamentos/08-higher-order-functions-do-js-es6/01-js-es6-introducao-a-higher-order-functions)
@@ -68,26 +68,26 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 03: JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 04: JavaScript ES6 - Higher Order Functions - reduce
 - [x] [05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais](fundamentos/08-higher-order-functions-do-js-es6/05-js-es6-spread-rest-destructuring)
-- [x] [**06: Projeto - Zoo Functions**](fundamentos/projetos/zoo-functions)
+- [x] [**06: Projeto - Zoo Functions**](projetos/fundamentos/zoo-functions)
 
 ## Frontend ✅
 #### Seção 01: JavaScript e Testes Assíncronos ✅
 - [x] 01: Introdução - Frontend
 - [x] [01: JavaScript Assíncrono e Callbacks](frontend/01-javascript-e-testes-assincronos/01-javascript-assincrono-e-callbacks)
-- [x] [02: JavaScript Assíncrono - Fetch API e async/await](frontend/projetos/sd-026-b-exercise-javascript-async)
+- [x] [02: JavaScript Assíncrono - Fetch API e async/await](projetos/frontend/sd-026-b-exercise-javascript-async)
 - [x] 03: Jest - Testes Assíncronos
-- [x] [**04: Projeto - Carrinho de Compras**](frontend/projetos/shopping-cart/)
+- [x] [**04: Projeto - Carrinho de Compras**](projetos/frontend/shopping-cart/)
 
 #### Seção 02: Introdução à React ✅
 - [x] 01: Introdução - React
 - [x] [01: "Hello World!" no React](frontend/02-introducao-ao-react/01-hello-world-no-react)
 - [x] [02: Componentes React](frontend/02-introducao-ao-react/02-componentes-react)
-- [x] [**03: Projeto - Sistema Solar**](frontend/projetos/solar-system)
+- [x] [**03: Projeto - Sistema Solar**](projetos/frontend/solar-system)
 
 #### Seção 03: Componentes com Estado, Eventos e Formulários React ✅
 - [x] [01: Componentes com estados e eventos](frontend/03-componentes-com-estado-eventos-e-formularios-no-react/01-componentes-com-estado-e-eventos)
 - [x] 02: Formulários no React
-- [x] [**03: Projeto - Tryunfo**](frontend/projetos/tryunfo)
+- [x] [**03: Projeto - Tryunfo**](projetos/frontend/tryunfo)
 
 #### Seção 04: Ciclo de Vida de Componentes e React Router ✅
 - [x] 01: Ciclo de vida de componentes
