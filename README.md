@@ -126,10 +126,10 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 
 ## Backend ⏳
 #### Seção 01: Docker: Utilizando Containers ⏳
-- [ ] 01: Introdução - Backend
-- [ ] 01: Utilizando Containers - Docker
-- [ ] 02: Manipulando Imagens no Docker
-- [ ] 03: Orquestrando Containers com Docker Compose
+- [x] 01: Introdução - Backend
+- [x] 01: Utilizando Containers - Docker
+- [x] 02: Manipulando Imagens no Docker
+- [] 03: Orquestrando Containers com Docker Compose
 - [ ] **04: Projeto - Docker Todo-List**
 
 #### Seção 02: Introdução à SQL
