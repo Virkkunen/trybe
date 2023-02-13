@@ -129,8 +129,8 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 01: Introdução - Backend
 - [x] 01: Utilizando Containers - Docker
 - [x] 02: Manipulando Imagens no Docker
-- [] 03: Orquestrando Containers com Docker Compose
-- [ ] **04: Projeto - Docker Todo-List**
+- [x] 03: Orquestrando Containers com Docker Compose
+- [x] [**04: Projeto - Docker Todo-List**](projetos/backend/docker-todo-list)
 
 #### Seção 02: Introdução à SQL
 - [ ] 01: Introdução - Bancos de dados relacionais
