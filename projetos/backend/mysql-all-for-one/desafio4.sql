@@ -1,0 +1,1 @@
+SELECT COUNT(product_name) FROM products WHERE product_name IS NOT NULL;
