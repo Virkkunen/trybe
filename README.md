@@ -133,12 +133,12 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [**04: Projeto - Docker Todo-List**](projetos/backend/docker-todo-list)
 
 #### Seção 02: Introdução à SQL
-- [ ] 01: Introdução - Bancos de dados relacionais
-- [ ] 01: Banco de dados SQL
-- [ ] 02: Encontrando dados em um banco de dados
-- [ ] 03: Filtrando dados de uma forma específica
-- [ ] 04: Manipulando tabelas
-- [ ] **05: Projeto - All For One**
+- [x] 01: Introdução - Bancos de dados relacionais
+- [x] 01: Banco de dados SQL
+- [x] 02: Encontrando dados em um banco de dados
+- [x] 03: Filtrando dados de uma forma específica
+- [x] 04: Manipulando tabelas
+- [x] [**05: Projeto - All For One**](projetos/backend/mysql-all-for-one)
 
 #### Seção 03: Funções SQL, JOINs e Normalização
 - [ ] 01: Funções mais usadas no SQL
