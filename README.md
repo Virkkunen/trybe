@@ -125,14 +125,14 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] [**01: Projeto - App de Receitas**](https://tryberecipes.vercel.app)
 
 ## Backend ⏳
-#### Seção 01: Docker: Utilizando Containers ⏳
+#### Seção 01: Docker: Utilizando Containers ✅
 - [x] 01: Introdução - Backend
 - [x] 01: Utilizando Containers - Docker
 - [x] 02: Manipulando Imagens no Docker
 - [x] 03: Orquestrando Containers com Docker Compose
 - [x] [**04: Projeto - Docker Todo-List**](projetos/backend/docker-todo-list)
 
-#### Seção 02: Introdução à SQL
+#### Seção 02: Introdução à SQL ✅
 - [x] 01: Introdução - Bancos de dados relacionais
 - [x] 01: Banco de dados SQL
 - [x] 02: Encontrando dados em um banco de dados
@@ -140,13 +140,13 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 04: Manipulando tabelas
 - [x] [**05: Projeto - All For One**](projetos/backend/mysql-all-for-one)
 
-#### Seção 03: Funções SQL, JOINs e Normalização
-- [ ] 01: Funções mais usadas no SQL
-- [ ] 02: Descomplicando JOINs
-- [ ] 03: Transformando ideias em um modelo de banco de dados
-- [ ] **04: Aula ao vivo + Projeto - One For All**
+#### Seção 03: Funções SQL, JOINs e Normalização ✅
+- [x] 01: Funções mais usadas no SQL
+- [x] 02: Descomplicando JOINs
+- [x] 03: Transformando ideias em um modelo de banco de dados
+- [x] [**04: Aula ao vivo + Projeto - One For All**](projetos/backend/mysql-one-for-all)
 
-#### Seção 04: Introdução ao desenvolvimento Web com Node.js
+#### Seção 04: Introdução ao desenvolvimento Web com Node.js ⏳
 - [ ] 01: Intro - Node.js
 - [ ] 01: Node.js - Um motor JavaScript
 - [ ] 02: Node.js - Fluxo Assíncrono
