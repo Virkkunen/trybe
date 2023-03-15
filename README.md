@@ -146,16 +146,16 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 03: Transformando ideias em um modelo de banco de dados
 - [x] [**04: Aula ao vivo + Projeto - One For All**](projetos/backend/mysql-one-for-all)
 
-#### Seção 04: Introdução ao desenvolvimento Web com Node.js ⏳
-- [ ] 01: Intro - Node.js
-- [ ] 01: Node.js - Um motor JavaScript
-- [ ] 02: Node.js - Fluxo Assíncrono
-- [ ] 03: Mocha, Chai e Sinon - Testes de Backend com Node.js
-- [ ] 04: Express - HTTP com Node.js
-- [ ] 05: Express - Middlewares
-- [ ] **06: Atividades + Projeto - Talker Manager**
+#### Seção 04: Introdução ao desenvolvimento Web com Node.js ✅
+- [x] 01: Intro - Node.js
+- [x] 01: Node.js - Um motor JavaScript
+- [x] 02: Node.js - Fluxo Assíncrono
+- [x] 03: Mocha, Chai e Sinon - Testes de Backend com Node.js
+- [x] 04: Express - HTTP com Node.js
+- [x] 05: Express - Middlewares
+- [x] [**06: Atividades + Projeto - Talker Manager**](projetos/backend/talker-manager)
 
-#### Seção 05: Node.js: Camada de Serviço e Arquitetura Rest e Restful
+#### Seção 05: Node.js: Camada de Serviço e Arquitetura Rest e Restful ⏳
 - [ ] 01: Introdução - Arquitetura de Software
 - [ ] 01: Arquitetura de Software - Camada de Model
 - [ ] 02: Arquitetura de Software - Camada de Controller e Service
