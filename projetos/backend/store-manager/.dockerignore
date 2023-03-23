@@ -1,0 +1,8 @@
+.github/
+.vscode/
+node_modules/
+public/
+.env
+.env_example
+.gitignore
+trybe.yml

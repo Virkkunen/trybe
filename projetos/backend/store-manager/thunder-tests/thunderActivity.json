@@ -1,0 +1,168 @@
+[
+  {
+    "_id": "6530ed5b-9794-4c1e-939f-316aeef17d8a",
+    "colId": "history",
+    "containerId": "",
+    "name": "GET products",
+    "url": "localhost:3001/products",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-21T18:19:17.690Z",
+    "modified": "2023-03-21T18:19:17.690Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "0af6e680-74a9-446b-b9ed-a1b3365d4456",
+    "colId": "history",
+    "containerId": "",
+    "name": "GET product by ID",
+    "url": "localhost:3001/products/133",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-21T18:19:17.690Z",
+    "modified": "2023-03-23T00:17:28.444Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "244cc942-ecb1-4028-8b5d-9738b0d302f7",
+    "colId": "history",
+    "containerId": "",
+    "name": "create product",
+    "url": "localhost:3001/products",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-21T18:19:17.690Z",
+    "modified": "2023-03-21T22:30:59.509Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"p\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "57ce0bce-2638-42dd-b7d6-a895176264ea",
+    "colId": "history",
+    "containerId": "",
+    "name": "create sale",
+    "url": "localhost:3001/sales",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-21T18:19:17.690Z",
+    "modified": "2023-03-22T23:43:29.557Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "[\n  {\n    \"productId\": 1,\n    \"quantity\": 1\n  }\n]",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0b2e1747-52a4-4491-8eb8-3f33f6a84d33",
+    "colId": "history",
+    "containerId": "",
+    "name": "sale by ID",
+    "url": "localhost:3001/sales/13",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-21T18:19:17.690Z",
+    "modified": "2023-03-22T13:47:34.715Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "df364663-e5cb-43b6-863c-fca56333e838",
+    "colId": "history",
+    "containerId": "",
+    "name": "find product by name",
+    "url": "localhost:3001/products/search?q=Martelo",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-21T18:19:17.690Z",
+    "modified": "2023-03-22T20:51:47.533Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "q",
+        "value": "Martelo",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "77d65897-7a82-408d-ab12-cea8a04626a6",
+    "colId": "history",
+    "containerId": "",
+    "name": "update product",
+    "url": "localhost:3001/products/2",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2023-03-22T15:09:59.664Z",
+    "modified": "2023-03-22T15:14:37.878Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Product Put\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "abc9e06d-116d-4503-9326-12e98eb6ed6a",
+    "colId": "history",
+    "containerId": "",
+    "name": "update sale",
+    "url": "localhost:3001/sales/1",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2023-03-22T15:09:59.664Z",
+    "modified": "2023-03-22T20:34:28.437Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "[\n  {\n    \"productId\": 1,\n    \"quantity\": 10\n  },\n  {\n    \"productId\": 2,\n    \"quantity\": 3\n  }\n]",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "374c4157-df65-4510-ae71-c4d186811d0e",
+    "colId": "history",
+    "containerId": "",
+    "name": "delete product",
+    "url": "localhost:3001/products/1",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2023-03-22T15:56:07.880Z",
+    "modified": "2023-03-22T22:05:56.352Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "72d178a4-4aee-40ac-bfd3-8bb53b4cf5c3",
+    "colId": "history",
+    "containerId": "",
+    "name": "delete sale",
+    "url": "localhost:3001/sales/1",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2023-03-22T15:56:07.880Z",
+    "modified": "2023-03-23T01:02:28.595Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

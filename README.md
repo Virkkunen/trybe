@@ -155,15 +155,15 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 05: Express - Middlewares
 - [x] [**06: Atividades + Projeto - Talker Manager**](projetos/backend/talker-manager)
 
-#### Seção 05: Node.js: Camada de Serviço e Arquitetura Rest e Restful ⏳
-- [ ] 01: Introdução - Arquitetura de Software
-- [ ] 01: Arquitetura de Software - Camada de Model
-- [ ] 02: Arquitetura de Software - Camada de Controller e Service
-- [ ] 03: Arquitetura Web - Rest e Restful
-- [ ] 04: Arquitetura de Software - Testando as camadas
-- [ ] **05: Projeto - Store Manager**
+#### Seção 05: Node.js: Camada de Serviço e Arquitetura Rest e Restful ✅
+- [x] 01: Introdução - Arquitetura de Software
+- [x] 01: Arquitetura de Software - Camada de Model
+- [x] 02: Arquitetura de Software - Camada de Controller e Service
+- [x] 03: Arquitetura Web - Rest e Restful
+- [x] 04: Arquitetura de Software - Testando as camadas
+- [x] [**05: Projeto - Store Manager**](projetos/backend/store-manager)
 
-#### Seção 06: Node.js: ORM e Autenticação
+#### Seção 06: Node.js: ORM e Autenticação ⏳
 - [ ] 01: Introdução - Nods.js: ORM e Autenticação
 - [ ] 01: ORM - Interface da aplicação com o banco de dados
 - [ ] 02: ORM - Associations
