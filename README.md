@@ -163,15 +163,15 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 04: Arquitetura de Software - Testando as camadas
 - [x] [**05: Projeto - Store Manager**](https://github.com/Virkkunen/store-manager/)
 
-#### Seção 06: Node.js: ORM e Autenticação ⏳
-- [ ] 01: Introdução - Nods.js: ORM e Autenticação
-- [ ] 01: ORM - Interface da aplicação com o banco de dados
-- [ ] 02: ORM - Associations
-- [ ] 03: JWT - JSON Web Token
-- [ ] 04: Testando APIs com Testes de Integração
-- [ ] **05: Projeto - API de Blogs**
+#### Seção 06: Node.js: ORM e Autenticação ✅
+- [x] 01: Introdução - Nods.js: ORM e Autenticação
+- [x] 01: ORM - Interface da aplicação com o banco de dados
+- [x] 02: ORM - Associations
+- [x] 03: JWT - JSON Web Token
+- [x] 04: Testando APIs com Testes de Integração
+- [x] [**05: Projeto - API de Blogs**](https://github.com/Virkkunen/blog-api)
 
-#### Seção 07: Deployment
+#### Seção 07: Deployment ⏳
 - [ ] 01: Introdução - Deploy
 - [ ] 01: Infraestrutura - Deploy com Heroku
 - [ ] 02: Deploy Docker & Heroku
