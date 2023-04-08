@@ -161,7 +161,7 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 02: Arquitetura de Software - Camada de Controller e Service
 - [x] 03: Arquitetura Web - Rest e Restful
 - [x] 04: Arquitetura de Software - Testando as camadas
-- [x] [**05: Projeto - Store Manager**](projetos/backend/store-manager)
+- [x] [**05: Projeto - Store Manager**](https://github.com/Virkkunen/store-manager/)
 
 #### Seção 06: Node.js: ORM e Autenticação ⏳
 - [ ] 01: Introdução - Nods.js: ORM e Autenticação
