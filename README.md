@@ -171,20 +171,20 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 04: Testando APIs com Testes de Integração
 - [x] [**05: Projeto - API de Blogs**](https://github.com/Virkkunen/blog-api)
 
-#### Seção 07: Deployment ⏳
-- [ ] 01: Introdução - Deploy
-- [ ] 01: Infraestrutura - Deploy com Heroku
-- [ ] 02: Deploy Docker & Heroku
-- [ ] **03: Projeto - Stranger Things**
+#### Seção 07: Deployment 
+- [x] 01: Introdução - Deploy
+- [x] 01: Infraestrutura - Deploy com Heroku
+- [x] 02: Deploy Docker & Heroku
+- [x] **03: Projeto - Stranger Things**
 
-#### Seção 08: TypeScript
-- [ ] 01: Introdução - TypeScrypt
-- [ ] 01: Introdução ao TypeScript
-- [ ] 02: Tipagem Estática e Generics
-- [ ] 03: Express com TypeScript
-- [ ] **04: Projeto - Trybe Smith**
+#### Seção 08: TypeScript ✅
+- [x] 01: Introdução - TypeScrypt
+- [x] 01: Introdução ao TypeScript
+- [x] 02: Tipagem Estática e Generics
+- [x] 03: Express com TypeScript
+- [x] **04: Projeto - Trybe Smith**
 
-#### Seção 09: Programação Orientada a Objetos (POO) e SOLID
+#### Seção 09: Programação Orientada a Objetos (POO) e SOLID ⏳
 - [ ] 01: Introdução à Orientação a Objetos
 - [ ] 02: Herança e Interfaces
 - [ ] 03: Polimorfismo
