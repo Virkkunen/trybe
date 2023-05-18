@@ -184,6 +184,9 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 03: Express com TypeScript
 - [x] **04: Projeto - Trybe Smith**
 
+Infelizmente, a partir desse ponto, a Trybe totalizou 8 mudanças de currículo e calendário no curso em um período de 1 mês. Como resultado, todos os conteúdos a partir da seção 10 dessa lista foram cortados do curso, muitos não estão nem na plataforma de conteúdo extra da Trybe. Os conteúdos até aqui deixaram muito a desejar e não servem como uma base para a entrada no mercado de desenvolvimento frontend, visto que nem o básico está presente no currículo.
+A resposta da empresa em relação às frustrações quanto aos inúmeros cortes de conteúdo e a recusa de atualizar o currículo para ter conteúdos de fato relevantes para o mercado está sendo apagar os posts nos canais de comunicação do curso e realizar o desligamento de alunos por motivos no mínimo duvidosos, mas nada se compara ao "discurso" do CEO da empresa, que, quando questionado sobre a auditoria, que visa dar a transparência nos números de empregabilidade de alunos e formandos da Trybe, disse que não será feita porque "é muito cara", 
+
 #### Seção 09: Programação Orientada a Objetos (POO) e SOLID ⏳
 - [ ] 01: Introdução à Orientação a Objetos
 - [ ] 02: Herança e Interfaces
