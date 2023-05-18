@@ -1,9 +1,9 @@
 # Repositório para exercícios e projetos da Trybe
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Frederico Almeida](https://www.linkedin.com/in/fredalmeida-/) enquanto estudava na [Trybe](https://betrybe.com) 🚀
+Este repositório contém algumas atividades de aprendizagem desenvolvidas por [Frederico Almeida](https://www.linkedin.com/in/fredalmeida-/) enquanto estudava na Trybe
 
-_"Trybe é uma escola de tecnologia que tem comprometimento genuíno com o sucesso profissional das pessoas estudantes. Com o Modelo de Sucesso Compartilhado, quem estuda na Trybe tem a opção de pagar apenas quando já estiver trabalhando._
+_"Trybe era uma escola de tecnologia que tinha comprometimento com o sucesso profissional dos estudantes. Com a Formação Intensiva Trybe, tal comprometimento foi jogado pela janela junto da confiança do mercado sobre a empresa._
 
-_São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento web, desenvolvimento, Front-end, Back-end, ciência da computação, metodologias ágeis e habilidades comportamentais."_
+_São mais de 1500 horas de formação que aborda componentes de classe em React, leitura de slides sobre LinkedIn, como ignorar críticas construtivas, inúmeras cópias de um mesmo projeto sobre a função fetch e recusa sobre atualização do currículo."_
 
 # Módulos
 ## Fundamentos do Desenvolvimento Web ✅
@@ -184,7 +184,8 @@ _São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 - [x] 03: Express com TypeScript
 - [x] **04: Projeto - Trybe Smith**
 
-Infelizmente, a partir desse ponto, a Trybe totalizou 8 mudanças de currículo e calendário no curso em um período de 1 mês. Como resultado, todos os conteúdos a partir da seção 10 dessa lista foram cortados do curso, muitos não estão nem na plataforma de conteúdo extra da Trybe, a qual os conteúdos se aprensentam em grande maioria muito desatualizados, a ponto que é mais vantajoso aprender as novas versões do 0 por outros meios. Os conteúdos até aqui deixaram muito a desejar e não servem como uma base para a entrada no mercado de desenvolvimento frontend, visto que nem o básico está presente no currículo.
+Infelizmente, a partir desse ponto, a Trybe totalizou 8 mudanças de currículo e calendário no curso em um período de 1 mês. Como resultado, todos os conteúdos a partir da seção 10 dessa lista foram cortados do curso, muitos não estão nem na plataforma de conteúdo extra da Trybe, a qual os conteúdos se aprensentam em grande maioria muito desatualizados, a ponto que é mais vantajoso aprender as novas versões do 0 por outros meios. 
+Os conteúdos até aqui deixaram muito a desejar e não servem como uma base para a entrada no mercado de desenvolvimento frontend, visto que nem o básico está presente no currículo. Os projetos desenvolvidos no curso não retraram a realidade do mercado de desenvolvimento e não são bons candidatos para serem adicionados em um portfolio profissional se seu intuito é ser contratado.
 
 A resposta da empresa em relação às frustrações quanto aos inúmeros cortes de conteúdo e a recusa de atualizar o currículo para ter conteúdos de fato relevantes para o mercado está sendo apagar os posts nos canais de comunicação do curso e realizar o desligamento de alunos por motivos no mínimo duvidosos, mas nada se compara ao "discurso" do CEO da empresa, que, quando questionado sobre a auditoria, que visa dar a transparência nos números de empregabilidade de alunos e formandos da Trybe, prometida há meses porém sem atualizações sobre, disse que não será feita porque "é muito cara" e continuará assim "porque a empresa é minha e eu faço o que quero".
 
@@ -195,16 +196,18 @@ Não posso dizer que o curso não serviu de nada sem mentir; em seus primeiros m
 
 Para você, aluno, ex-aluno ou formando que está lendo esse texto, recomendo começar a pesquisar melhor sobre as empresas relacionadas a area que quer trabalhar com, melhor ainda se conseguir conversar com funcionários das empresas, e tente aprender por fora ao menos os básicos das ferramentas e tecnologias usadas pelas empresas, ao menos assim você terá uma base real para requisitos reais de empresas reais, algo que a Trybe infelizmente não nos providencia.
 
-#### Seção 09: Programação Orientada a Objetos (POO) e SOLID ⏳
-- [ ] 01: Introdução à Orientação a Objetos
-- [ ] 02: Herança e Interfaces
-- [ ] 03: Polimorfismo
-- [ ] 04: SOLID - Introdução e Princípios S, O e D
-- [ ] 05: SOLID - Princípios L e I
-- [ ] **06: Projeto - Trybers and Dragons**
+#### Seção 09: Programação Orientada a Objetos (POO) e SOLID ✅
+- [x] 01: Introdução à Orientação a Objetos
+- [x] 02: Herança e Interfaces
+- [x] 03: Polimorfismo
+- [x] 04: SOLID - Introdução e Princípios S, O e D
+- [x] 05: SOLID - Princípios L e I
+- [x] **06: Projeto - Trybers and Dragons**
 
-#### Seção 10: Projeto - TFC - Trybe Futebol Clube
-- [ ] **01: Projeto - TFC - Trybe Futebol Clube**
+#### Seção 10: Projeto - TFC - Trybe Futebol Clube ✅
+- [x] **01: Projeto - TFC - Trybe Futebol Clube**
+
+---
 
 #### Seção 11: Introdução ao MongoDB
 - [ ] 01: Introdução - NoSQL
